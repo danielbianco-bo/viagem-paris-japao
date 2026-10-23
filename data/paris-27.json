@@ -1978,7 +1978,10 @@
       ],
       "next": "Linha 1 → Charles de Gaulle–Étoile · 25–35 min com caminhada e espera",
       "mode": "transit",
-      "note": "Escolher colunas de Buren OU galeria se estiver apertado. Jardim só com sobra; sair para o metrô às 14h30."
+      "note": "Escolher colunas de Buren OU galeria se estiver apertado. Jardim só com sobra; sair para o metrô às 14h30.",
+      "captureSpots": [
+        "metro"
+      ]
     },
     {
       "id": "r4",
@@ -2006,7 +2009,7 @@
     {
       "id": "r6",
       "time": "15h55–16h15",
-      "title": "Travessia com um take",
+      "title": "Pont d’Iéna · travessia",
       "spots": [
         "iena"
       ],

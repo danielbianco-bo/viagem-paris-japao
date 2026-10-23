@@ -94,6 +94,34 @@ const TripPlanner = (() => {
   }
   function routeIds(r) { return r.spots.filter(id => choice(spotBy(id)) !== 'cut'); }
 
+  function captureSpotIds(r) {
+    return [...new Set([...routeIds(r),...(r.captureSpots || []).filter(id=>choice(spotBy(id))!=='cut')])];
+  }
+  function routeCaptures(r) {
+    const ids=new Set(captureSpotIds(r));
+    return [
+      ...plan.videos.flatMap(video=>video.takes.filter(t=>ids.has(t.spotId)).map(take=>({type:'take',id:take.id,spotId:take.spotId,take,video}))),
+      ...plan.photos.filter(p=>ids.has(p.spotId)&&photoState(p).use).map(photo=>({type:'photo',id:photo.id,spotId:photo.spotId,photo}))
+    ];
+  }
+  function captureDone(item) { return item.type==='take'?!!state.takes[item.id]:photoState(item.photo).done; }
+  function captureStats(items) {
+    const takes=items.filter(c=>c.type==='take'),photos=items.filter(c=>c.type==='photo');
+    return {total:items.length,done:items.filter(captureDone).length,takes:takes.length,takesDone:takes.filter(captureDone).length,photos:photos.length,photosDone:photos.filter(captureDone).length};
+  }
+  function setPhoto(p,key,value) {
+    state.photos[p.id]={...photoState(p),[key]:value};save();syncPhotoCards(p);refreshRouteProgress(key==='use');
+  }
+  function syncTakeRows() {
+    document.querySelectorAll('[data-take-id]').forEach(row=>{
+      const done=!!state.takes[row.dataset.takeId];row.classList.toggle('done',done);row.querySelector('input').checked=done;
+    });
+    document.querySelectorAll('[data-video-id] > summary').forEach(summary=>{
+      const video=plan.videos.find(v=>v.id===summary.parentElement.dataset.videoId);
+      summary.textContent='Ver roteiro · '+video.takes.filter(t=>state.takes[t.id]).length+'/'+video.takes.length+' takes';
+    });
+  }
+
 
   function parseHash() {
     const parts = location.hash.slice(1).split('/');
@@ -188,7 +216,7 @@ const TripPlanner = (() => {
         }
         if(target){
           if(target.tagName==='DETAILS')target.open=true;
-          const script=target.querySelector('.reel-script');if(script)script.open=true;
+          const script=target.querySelector('.reel-script,.route-captures');if(script)script.open=true;
           target.scrollIntoView();
         }
       });
@@ -257,18 +285,16 @@ const TripPlanner = (() => {
   }
 
 
-  function photoCard(p,list=plan.photos) {
+  function photoCard(p,list=plan.photos,captureOnly=false) {
     const ps=photoState(p),card=el('figure','photo'+(ps.done?' is-done':''));card.dataset.refId=p.id;
     const open=button('',()=>openPhoto(p,list),'photo-open');open.setAttribute('aria-label','Ver ref '+p.id+' e o ponto de captura');
     open.append(imageNode(p.id,p.title),el('span','photo-index',p.id.startsWith('pa-')||p.id.startsWith('jp-')?p.id:'#'+p.index));card.append(open);
     const caption=el('figcaption','photo-label'),place=spotBy(p.spotId);
     caption.append(el('strong',null,place?titleOf(place):p.feasibility==='blocked'?'Fora deste dia':'Local a confirmar'));
     caption.append(el('small','certainty '+p.precision,p.feasibility==='blocked'?feasibility[p.feasibility]:certainty[p.precision]));card.append(caption);
-    const checks=el('div','photo-checks');[['use','Selecionar'],['done','Captada']].forEach(([key,title])=>{
+    const checks=el('div','photo-checks');(captureOnly?[['done','Captada']]:[['use','Selecionar'],['done','Captada']]).forEach(([key,title])=>{
       const label=el('label'),cb=el('input');cb.type='checkbox';cb.checked=ps[key];cb.dataset.photoAction=key;cb.setAttribute('aria-label',title+' · ref '+p.id);
-      cb.onchange=()=>{
-        state.photos[p.id]={...photoState(p),[key]:cb.checked};save();syncPhotoCards(p);
-      };
+      cb.onchange=()=>setPhoto(p,key,cb.checked);
       label.append(cb,document.createTextNode(title));checks.append(label);
     });card.append(checks);return card;
   }
@@ -313,7 +339,7 @@ const TripPlanner = (() => {
     if(plan.photos.some(x=>x.id===p.id)){
       [['use','Selecionar foto'],['done','Foto captada']].forEach(([key,text])=>{
         const label=el('label'),cb=el('input');cb.type='checkbox';cb.checked=photoState(p)[key];cb.setAttribute('aria-label',text+' · '+p.id);
-        cb.onchange=()=>{state.photos[p.id]={...photoState(p),[key]:cb.checked};save();syncPhotoCards(p);};label.append(cb,document.createTextNode(text));checks.append(label);
+        cb.onchange=()=>setPhoto(p,key,cb.checked);label.append(cb,document.createTextNode(text));checks.append(label);
       });info.append(checks);
     }
     const full=el('div','details-body');full.append(el('p',null,p.note));
@@ -348,7 +374,7 @@ const TripPlanner = (() => {
     const places=[...new Set(v.takes.map(t=>spotBy(t.spotId).area.split(' · ')[0]))];body.append(el('p','content-location',v.placesLabel||compact(places.join(' · '),70)));
     const script=el('div','details-body');script.append(el('p',null,v.hook));
     const refs=el('div','ref-links');v.references.forEach(id=>{const r=refBy(id);if(r)refs.append(link('Reel de referência ↗',r.url,'quiet-link'));});script.append(refs);
-    v.takes.forEach(t=>script.append(takeRow(t,v)));
+    v.takes.forEach(t=>script.append(takeRow(t)));
     const edit=el('div','details-body');[['Edição',v.edit],['Áudio',v.audio],['Adaptação',v.adaptation]].forEach(([label,text])=>edit.append(el('h4',null,label),el('p',null,text)));
     script.append(disclosure('Edição e áudio',edit));
     const done=v.takes.filter(t=>state.takes[t.id]).length;
@@ -356,12 +382,11 @@ const TripPlanner = (() => {
     body.append(panel);article.append(body);return article;
   }
 
-  function takeRow(t,v) {
-    const row=el('div','take'+(state.takes[t.id]?' done':'')),cb=el('input');cb.type='checkbox';cb.checked=!!state.takes[t.id];cb.id='take-'+t.id;cb.setAttribute('aria-label','Gravado: '+t.text);
+  function takeRow(t,context='content') {
+    const row=el('div','take'+(state.takes[t.id]?' done':'')),cb=el('input');row.dataset.takeId=t.id;
+    cb.type='checkbox';cb.checked=!!state.takes[t.id];cb.id=context+'-take-'+t.id;cb.setAttribute('aria-label','Gravado: '+t.text);
     cb.onchange=()=>{
-      state.takes[t.id]=cb.checked;save();row.classList.toggle('done',cb.checked);
-      const summary=document.querySelector('[data-video-id="'+v.id+'"] > summary');
-      if(summary)summary.textContent='Ver roteiro · '+v.takes.filter(item=>state.takes[item.id]).length+'/'+v.takes.length+' takes';
+      state.takes[t.id]=cb.checked;save();syncTakeRows();refreshRouteProgress();
     };
     const body=el('div'),label=el('label');label.htmlFor=cb.id;label.append(el('p',null,t.text));const spot=spotBy(t.spotId);
     body.append(label,link(titleOf(spot)+' · '+t.seconds+'s',spotHref(spot.id),'quiet-link'));row.append(cb,body);return row;
@@ -376,6 +401,14 @@ const TripPlanner = (() => {
 
   function renderRoute(main) {
     main.append(sectionHeading('Rota do dia',el('span','subtle','Horários estimados')));
+    const progress=el('section','capture-progress');progress.setAttribute('aria-label','Progresso de captação');
+    const top=el('div','capture-progress-top'),copy=el('div');copy.append(el('p','eyebrow','Captação do dia'));
+    const total=el('strong');total.id='capture-total';total.setAttribute('aria-live','polite');total.setAttribute('aria-atomic','true');copy.append(total);
+    const percent=el('span','capture-percent');percent.id='capture-percent';top.append(copy,percent);
+    const bar=el('progress');bar.id='capture-bar';bar.setAttribute('aria-label','Captações concluídas');
+    const bottom=el('div','capture-progress-bottom'),breakdown=el('span');breakdown.id='capture-breakdown';
+    const nextCapture=link('Próxima pendência ↓','#paris-27/route','quiet-link');nextCapture.id='next-capture';bottom.append(breakdown,nextCapture);
+    progress.append(top,bar,bottom,el('p','storage-note','Takes da rota + fotos selecionadas · salvo neste aparelho'));main.append(progress);
     const fixed=el('div','route-fixed');fixed.append(el('b',null,'16h15 · chegar à segurança'),el('span',null,'16h40 · ingresso da Torre'));main.append(fixed);
     if(Object.keys(state.choices).length)main.append(el('p','compact-notice','Prioridades alteradas: os horários ainda precisam de revisão.'));
     const outside=plan.spots.filter(s=>s.mode==='outside'&&choice(s)!=='cut');
@@ -383,16 +416,71 @@ const TripPlanner = (() => {
     const active=plan.route.filter(r=>routeIds(r).length),list=el('div','route-list');
     active.forEach((r,i)=>{
       const row=el('article','route-row'+(r.fixed?' fixed':'')),mainline=el('div','route-main'),title=el('div');
+      row.id='route-'+r.id;row.dataset.routeId=r.id;
       mainline.append(el('span','clock',r.time));title.append(el('h3',null,r.title));
       const content=el('div','details-body');content.append(el('p',null,r.note));const points=el('div','route-spots');
       routeIds(r).forEach(id=>points.append(link(titleOf(spotBy(id)),spotHref(id),'quiet-link')));content.append(points);
       if(r.next)content.append(el('p','subtle',r.next));
       const details=disclosure('Ver paradas e tempo',content,'route-details');title.append(details);mainline.append(title);
       const next=active[i+1];if(next){const from=spotBy(routeIds(r).at(-1)),to=spotBy(routeIds(next)[0]);mainline.append(link('Trajeto ↗',directions(from,to,r.mode||'walking'),'button small'));}
-      row.append(mainline);list.append(row);
+      const captures=el('div','route-capture-block'),preview=el('div','capture-preview');preview.dataset.capturePreview=r.id;
+      const actions=el('div','capture-actions'),detailsBody=el('div','route-capture-list');
+      const capturePanel=disclosure('Ver captações',detailsBody,'route-captures');capturePanel.dataset.capturePanel=r.id;
+      const check=el('label','stop-check'),cb=el('input');cb.type='checkbox';cb.dataset.routeCheck=r.id;cb.setAttribute('aria-label','Tudo captado em '+r.title);
+      cb.onchange=()=>{
+        routeCaptures(r).forEach(item=>{
+          if(item.type==='take')state.takes[item.id]=cb.checked;
+          else{state.photos[item.id]={...photoState(item.photo),done:cb.checked};syncPhotoCards(item.photo);}
+        });save();syncTakeRows();refreshRouteProgress();
+      };
+      check.append(cb,el('span',null,'Tudo captado'));actions.append(capturePanel,check);captures.append(preview,actions);
+      row.append(mainline,captures);list.append(row);
     });main.append(list);
+    refreshRouteProgress(true);
     const backup=el('div','details-body');backup.append(el('p',null,'Se atrasar, cortar jardim, fotos extras e depois encurtar o Arco. Sair do Trocadéro às 15h55. A captação noturna acompanha a saída real da Torre.'),link('Ver pendências','#paris-27/decisions','quiet-link'));
     main.append(disclosure('Se o dia atrasar',backup),disclosure('Ver esquema da sequência',routeSketch()));
+  }
+
+  function renderRouteCaptures(r,host) {
+    host.replaceChildren();const captures=routeCaptures(r);
+    if(!captures.length){host.append(el('p','subtle','Sem takes ou fotos selecionadas nesta parada.'));return;}
+    captureSpotIds(r).forEach(id=>{
+      const items=captures.filter(c=>c.spotId===id);if(!items.length)return;
+      const spot=spotBy(id),group=el('section','capture-group'),heading=el('div','capture-group-heading');
+      heading.append(el('h4',null,((r.captureSpots||[]).includes(id)?'No deslocamento · ':'')+titleOf(spot)),link('Spot ↗',spotHref(id),'quiet-link'));group.append(heading);
+      plan.videos.forEach(v=>{
+        const takes=items.filter(c=>c.type==='take'&&c.video.id===v.id);if(!takes.length)return;
+        const name=el('div','capture-video-heading');name.append(link(v.id+' · '+(v.displayTitle||v.title),'#paris-27/content/'+v.id,'quiet-link'));
+        const ref=refBy(v.references[0]);if(ref)name.append(link('Ref ↗',ref.url,'quiet-link'));group.append(name);
+        takes.forEach(c=>group.append(takeRow(c.take,'route')));
+      });
+      const photos=items.filter(c=>c.type==='photo').map(c=>c.photo);
+      if(photos.length){group.append(el('p','capture-photo-title','Fotos selecionadas · '+photos.length));const grid=el('div','photo-grid route-photos');photos.forEach(p=>grid.append(photoCard(p,photos,true)));group.append(grid);}
+      host.append(group);
+    });paintImages();
+  }
+
+  function refreshRouteProgress(rebuild=false) {
+    if(!$('#capture-total'))return;
+    const active=plan.route.filter(r=>routeIds(r).length),all=[...new Map(active.flatMap(routeCaptures).map(c=>[c.type+':'+c.id,c])).values()],stats=captureStats(all);
+    const percent=stats.total?Math.round(stats.done/stats.total*100):0;
+    $('#capture-total').textContent=stats.done+' de '+stats.total+' captações';$('#capture-percent').textContent=percent+'%';
+    const bar=$('#capture-bar');bar.max=stats.total||1;bar.value=stats.done;bar.setAttribute('aria-valuetext',stats.done+' de '+stats.total+' captações');
+    $('#capture-breakdown').textContent=stats.takesDone+'/'+stats.takes+' takes · '+stats.photosDone+'/'+stats.photos+' fotos';
+    const next=active.find(r=>routeCaptures(r).some(c=>!captureDone(c))),jump=$('#next-capture');
+    jump.hidden=!next;if(next)jump.href='#paris-27/route/route-'+next.id;
+    active.forEach(r=>{
+      const row=document.getElementById('route-'+r.id);if(!row)return;
+      const items=routeCaptures(r),counts=captureStats(items),complete=counts.total>0&&counts.done===counts.total;
+      row.classList.toggle('capture-complete',complete);
+      const cb=row.querySelector('[data-route-check]');cb.checked=complete;cb.indeterminate=counts.done>0&&!complete;cb.disabled=!counts.total;
+      const preview=row.querySelector('[data-capture-preview]');preview.replaceChildren();
+      plan.videos.filter(v=>items.some(c=>c.type==='take'&&c.video.id===v.id)).forEach(v=>preview.append(link(v.id+' · '+(v.displayTitle||v.title),'#paris-27/content/'+v.id,'capture-chip')));
+      if(counts.photos)preview.append(el('span','capture-photo-count',counts.photos+' foto'+(counts.photos===1?'':'s')));
+      const panel=row.querySelector('[data-capture-panel]');
+      panel.querySelector(':scope > summary').textContent=counts.total?'Ver captações · '+counts.done+'/'+counts.total:'Sem captações';
+      if(rebuild)renderRouteCaptures(r,panel.querySelector('.route-capture-list'));
+    });
   }
 
 
