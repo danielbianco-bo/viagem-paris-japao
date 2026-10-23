@@ -1,0 +1,1364 @@
+{
+  "tabs": [
+    "Ter 27/10",
+    "Qua 28/10",
+    "Qui 29/10",
+    "Sex 30/10",
+    "Sáb 31/10",
+    "Dom 01/11",
+    "Seg 02/11",
+    "Ter 03/11",
+    "Kyoto",
+    "Osaka"
+  ],
+  "locs": [
+    {
+      "key": "L00",
+      "tab": "Ter 27/10",
+      "city": "Paris",
+      "day": "Ter 27/10",
+      "time": "13h",
+      "name": "Almoço perto do Louvre",
+      "note": "Café Marly fica embaixo das arcadas, de frente pra Pirâmide. Vale reservar mesa no terraço.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Marly%2C%20Louvre",
+      "file": "ck-ter-27-10.json",
+      "must": [
+        "14355292557817458",
+        "178173729003376381",
+        "177470041560729806",
+        "145663369220851804",
+        "326299935525898672",
+        "145874475427109953",
+        "72761350251283425"
+      ],
+      "insp": [
+        "138978338508755106",
+        "151292868727090024",
+        "6544361955469125",
+        "81557443248628713",
+        "814940495121147351",
+        "4574037118887347",
+        "163185186492374167",
+        "51298883252800584",
+        "798685315215298143",
+        "6544361955469336",
+        "163959242681880019",
+        "353954851986244233",
+        "25121710418757056",
+        "778982066839985579",
+        "713257659773410973",
+        "345651340174804166",
+        "364862007335931698"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L01",
+      "tab": "Ter 27/10",
+      "city": "Paris",
+      "day": "Ter 27/10",
+      "time": "14h",
+      "name": "Louvre e Pirâmide",
+      "note": "O museu fecha às terças: hoje é só pátio e Pirâmide por fora. Câmera baixa pra pegar a Pirâmide inteira.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Pyramide%20du%20Louvre",
+      "file": "ck-ter-27-10.json",
+      "must": [
+        "511369732714306819"
+      ],
+      "insp": [
+        "610167449552403419",
+        "6544361955469134",
+        "339036678229940919",
+        "479000110389306852",
+        "4292562141143867",
+        "278026976968064423",
+        "66709638231341758",
+        "582934745568377241",
+        "364862007335931952",
+        "590253094957621551",
+        "854417360604459990",
+        "595038169561009001",
+        "714805772151002790",
+        "823806956894247134",
+        "890235051365340808",
+        "60094976272272304",
+        "353954851984386856",
+        "4574037118883474",
+        "100205160453613663",
+        "204984220534834407",
+        "393290979985029518"
+      ],
+      "mine": [
+        "pa-03",
+        "pa-04",
+        "pa-06",
+        "pa-07",
+        "pa-12"
+      ],
+      "reels": []
+    },
+    {
+      "key": "L02",
+      "tab": "Ter 27/10",
+      "city": "Paris",
+      "day": "Ter 27/10",
+      "time": "14h45",
+      "name": "Palais Royal (5 min do Louvre)",
+      "note": "A 5 min a pé do Louvre. As colunas listradas ficam no pátio de honra e a entrada é grátis.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Palais%20Royal%2C%20Paris",
+      "file": "ck-ter-27-10.json",
+      "must": [
+        "41517627813234932",
+        "28921622603076296",
+        "312859505385592137",
+        "348747564919476300"
+      ],
+      "insp": [
+        "354869645660212825",
+        "71353975343549941",
+        "229472543509505024",
+        "186969822026175628",
+        "367395282123686381",
+        "87679523992081007",
+        "624100460907808985",
+        "218846863143038398",
+        "116952921570012486",
+        "89368373851707346",
+        "7177680653163113",
+        "64246732183003948",
+        "401664860538172681",
+        "5277724560534582"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L03",
+      "tab": "Ter 27/10",
+      "city": "Paris",
+      "day": "Ter 27/10",
+      "time": "15h",
+      "name": "Metrô de Paris",
+      "note": "Linha 1 sentido La Défense até Charles de Gaulle–Étoile. Plataforma e vagão rendem take rápido.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Palais%20Royal%20Mus%C3%A9e%20du%20Louvre%20metro",
+      "file": "ck-ter-27-10.json",
+      "must": [
+        "10977592836954831",
+        "326862885480187376"
+      ],
+      "insp": [
+        "4362930885097979",
+        "4362930885097973",
+        "134334001382467291",
+        "85216617947429075",
+        "7599893117984320"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L04",
+      "tab": "Ter 27/10",
+      "city": "Paris",
+      "day": "Ter 27/10",
+      "time": "15h35",
+      "name": "Arco do Triunfo e Champs-Élysées",
+      "note": "Foto no meio da Champs-Élysées só da ilha central da faixa, com o sinal fechado. Pra chegar na base do Arco, use a passagem subterrânea.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Arc%20de%20Triomphe",
+      "file": "ck-ter-27-10.json",
+      "must": [
+        "28006828930634011",
+        "35465915813362437",
+        "22095854414708368",
+        "103793966406710576"
+      ],
+      "insp": [
+        "4574037118866596",
+        "393290979984886865",
+        "34621490880978547",
+        "75505731277043649"
+      ],
+      "mine": [
+        "pa-05",
+        "pa-09"
+      ],
+      "reels": []
+    },
+    {
+      "key": "L05",
+      "tab": "Ter 27/10",
+      "city": "Paris",
+      "day": "Ter 27/10",
+      "time": "16h15",
+      "name": "Trocadéro",
+      "note": "Luz dourada mais ou menos das 16h45 às 17h40. Lota rápido: ocupe o parapeito assim que chegar.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Trocad%C3%A9ro%2C%20Paris",
+      "file": "ck-ter-27-10.json",
+      "must": [
+        "233131718206087023",
+        "35465915813256068",
+        "317292736265324963",
+        "228065168602072378"
+      ],
+      "insp": [
+        "6544361955469115",
+        "6544361955469136"
+      ],
+      "mine": [
+        "pa-01",
+        "pa-08"
+      ],
+      "reels": []
+    },
+    {
+      "key": "L06",
+      "tab": "Ter 27/10",
+      "city": "Paris",
+      "day": "Ter 27/10",
+      "time": "16h40",
+      "name": "Jardins e Pont d'Iéna",
+      "note": "Descendo pelos jardins e atravessando a ponte até a Torre: 15–20 min, ou 30–45 min com fotos.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Pont%20d%27I%C3%A9na",
+      "file": "ck-ter-27-10.json",
+      "must": [
+        "213780313557320104"
+      ],
+      "insp": [],
+      "mine": [
+        "pa-02"
+      ],
+      "reels": []
+    },
+    {
+      "key": "L07",
+      "tab": "Ter 27/10",
+      "city": "Paris",
+      "day": "Ter 27/10",
+      "time": "17h",
+      "name": "Topo da Torre Eiffel",
+      "note": "Subida às 16h40, ingresso já comprado. Se for ver o pôr do sol lá de cima, o Trocadéro precisa vir antes.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Tour%20Eiffel",
+      "file": "ck-ter-27-10.json",
+      "must": [],
+      "insp": [
+        "87890630223665494"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L08",
+      "tab": "Ter 27/10",
+      "city": "Paris",
+      "day": "Ter 27/10",
+      "time": "18h",
+      "name": "Torre à noite / Champ de Mars",
+      "note": "A Torre pisca 5 min a cada hora cheia depois do pôr do sol (18h, 19h). Se posicione uns minutos antes.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Champ%20de%20Mars",
+      "file": "ck-ter-27-10.json",
+      "must": [],
+      "insp": [
+        "62417144829297228",
+        "637470522299179768"
+      ],
+      "mine": [
+        "jp-23",
+        "pa-13"
+      ],
+      "reels": [
+        "ig-DZNtT89st9u"
+      ]
+    },
+    {
+      "key": "L09",
+      "tab": "Ter 27/10",
+      "city": "Paris",
+      "day": "Ter 27/10",
+      "time": "19h",
+      "name": "Jantar em bistrô",
+      "note": "Jantar às 19h. Se for perto da Torre, dá pra pegar a piscada das 19h na saída.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Bistrot%20near%20Tour%20Eiffel",
+      "file": "ck-ter-27-10.json",
+      "must": [],
+      "insp": [
+        "774408098478042865"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L10",
+      "tab": "Ter 27/10",
+      "city": "Paris",
+      "day": "Ter 27/10",
+      "time": "volta",
+      "name": "Bir-Hakeim à noite",
+      "note": "Passarela embaixo dos trilhos do metrô. Voltando pela linha 6, o trem passa por cima da ponte de frente pra Torre: take de janela.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Pont%20de%20Bir-Hakeim",
+      "file": "ck-ter-27-10.json",
+      "must": [
+        "405253666488456119",
+        "13299761395701665",
+        "52776626856561919",
+        "563018699706663",
+        "115404809196313429"
+      ],
+      "insp": [
+        "686376799480318301"
+      ],
+      "mine": [
+        "pa-10"
+      ],
+      "reels": []
+    },
+    {
+      "key": "L11",
+      "tab": "Qua 28/10",
+      "city": "Paris",
+      "day": "Qua 28/10",
+      "time": "8h",
+      "name": "Padaria e saída pro aeroporto",
+      "note": "Café às 8h, saída do hotel às 9h. O sol nasce perto das 8h15.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Boulangerie%20Montparnasse",
+      "file": "ck-qua-28-10.json",
+      "must": [],
+      "insp": [],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L12",
+      "tab": "Qui 29/10",
+      "city": "Tóquio",
+      "day": "Qui 29/10",
+      "time": "15h",
+      "name": "Chegada: Narita e trem pra Tóquio",
+      "note": "Imigração e malas até umas 16h30, depois trem ou transfer.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Narita%20Airport",
+      "file": "ck-qui-29-10.json",
+      "must": [],
+      "insp": [],
+      "mine": [
+        "jp-13"
+      ],
+      "reels": []
+    },
+    {
+      "key": "L13",
+      "tab": "Qui 29/10",
+      "city": "Tóquio",
+      "day": "Qui 29/10",
+      "time": "20h",
+      "name": "Shinjuku à noite",
+      "note": "Jantar às 20h. Neon fica melhor com rua molhada: se chover, aproveite.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Shinjuku",
+      "file": "ck-qui-29-10.json",
+      "must": [
+        "145663369221827657",
+        "2955556003978182",
+        "2111131072002921",
+        "203225001929821594",
+        "1145392117762367677"
+      ],
+      "insp": [
+        "17381148558763068",
+        "25755029113809891"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L14",
+      "tab": "Qui 29/10",
+      "city": "Tóquio",
+      "day": "Qui 29/10",
+      "time": "21h",
+      "name": "Omoide Yokocho",
+      "note": "Becos apertados. Alguns bares não gostam de câmera, peça licença antes de gravar lá dentro.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Omoide%20Yokocho",
+      "file": "ck-qui-29-10.json",
+      "must": [
+        "374080312822748094"
+      ],
+      "insp": [],
+      "mine": [
+        "jp-05"
+      ],
+      "reels": []
+    },
+    {
+      "key": "L15",
+      "tab": "Qui 29/10",
+      "city": "Tóquio",
+      "day": "Qui 29/10",
+      "time": "21h30",
+      "name": "Kabukicho e Godzilla",
+      "note": "A cabeça do Godzilla fica no Hotel Gracery e aparece da Cinema Street, em Kabukicho.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Godzilla%20Head%20Shinjuku",
+      "file": "ck-qui-29-10.json",
+      "must": [
+        "516999232247720057",
+        "269512358948157651"
+      ],
+      "insp": [],
+      "mine": [],
+      "reels": [
+        "ig-DbKH2PzyWL7"
+      ]
+    },
+    {
+      "key": "L16",
+      "tab": "Qui 29/10",
+      "city": "Tóquio",
+      "day": "Qui 29/10",
+      "time": "21h45",
+      "name": "Don Quijote",
+      "note": "Opcional, 21h45.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Don%20Quijote%20Kabukicho",
+      "file": "ck-qui-29-10.json",
+      "must": [],
+      "insp": [],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L17",
+      "tab": "Sex 30/10",
+      "city": "Monte Fuji",
+      "day": "Sex 30/10",
+      "time": "6h30",
+      "name": "Estrada com motorista",
+      "note": "Saída 6h30 com motorista. Take de janela quando o Fuji aparecer na estrada.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Kawaguchiko",
+      "file": "ck-sex-30-10.json",
+      "must": [
+        "10907224093885769"
+      ],
+      "insp": [
+        "1124351863231048643"
+      ],
+      "mine": [
+        "jp-24",
+        "jp-25"
+      ],
+      "reels": []
+    },
+    {
+      "key": "L18",
+      "tab": "Sex 30/10",
+      "city": "Monte Fuji",
+      "day": "Sex 30/10",
+      "time": "9h",
+      "name": "Pagoda Chureito",
+      "note": "São quase 400 degraus até o mirante. O Fuji costuma estar mais limpo de manhã, por isso essa é a parada prioritária.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Chureito%20Pagoda",
+      "file": "ck-sex-30-10.json",
+      "must": [
+        "1026468940090740952",
+        "158329743146342063",
+        "374080312822767706",
+        "296604325485566216"
+      ],
+      "insp": [
+        "246783254576856240",
+        "570690584057254312",
+        "24066179252923906",
+        "329114685297194234"
+      ],
+      "mine": [
+        "jp-02"
+      ],
+      "reels": []
+    },
+    {
+      "key": "L19",
+      "tab": "Sex 30/10",
+      "city": "Monte Fuji",
+      "day": "Sex 30/10",
+      "time": "10h45",
+      "name": "Oshino Hakkai",
+      "note": "Vilarejo com o Fuji ao fundo. Lota a partir do fim da manhã.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Oshino%20Hakkai",
+      "file": "ck-sex-30-10.json",
+      "must": [],
+      "insp": [],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L20",
+      "tab": "Sex 30/10",
+      "city": "Monte Fuji",
+      "day": "Sex 30/10",
+      "time": "14h",
+      "name": "Lago Kawaguchi",
+      "note": "À tarde o Fuji costuma fechar de nuvem. Se estiver encoberto, priorize fotos sem ele.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Lake%20Kawaguchi",
+      "file": "ck-sex-30-10.json",
+      "must": [
+        "433612270399580955",
+        "308778118226356124"
+      ],
+      "insp": [],
+      "mine": [
+        "jp-06"
+      ],
+      "reels": []
+    },
+    {
+      "key": "L21",
+      "tab": "Sex 30/10",
+      "city": "Monte Fuji",
+      "day": "Sex 30/10",
+      "time": "14h45",
+      "name": "Oishi Park",
+      "note": "Mirante do Fuji às margens do lago. Mesmo risco de nuvem da tarde.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Oishi%20Park",
+      "file": "ck-sex-30-10.json",
+      "must": [
+        "324681454411831428"
+      ],
+      "insp": [],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L22",
+      "tab": "Sáb 31/10",
+      "city": "Tóquio",
+      "day": "Sáb 31/10",
+      "time": "9h",
+      "name": "Jardins do Palácio Imperial",
+      "note": "Fecha às segundas e sextas (sábado abre). Entrada grátis.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=East%20Gardens%20Imperial%20Palace",
+      "file": "ck-sab-31-10.json",
+      "must": [
+        "256634878761883802",
+        "45599014979458986"
+      ],
+      "insp": [
+        "611997036908527352",
+        "38491771792623971",
+        "407153622583740335"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L23",
+      "tab": "Sáb 31/10",
+      "city": "Tóquio",
+      "day": "Sáb 31/10",
+      "time": "11h",
+      "name": "Ginza (Chuo-dori)",
+      "note": "Aos sábados e domingos a Chuo-dori fecha pros carros à tarde: dá pra fotografar no meio da avenida.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Chuo-dori%20Ginza",
+      "file": "ck-sab-31-10.json",
+      "must": [
+        "116108496640326054",
+        "48273027252239416"
+      ],
+      "insp": [],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L24",
+      "tab": "Sáb 31/10",
+      "city": "Tóquio",
+      "day": "Sáb 31/10",
+      "time": "13h",
+      "name": "Lojas de Ginza (UNIQLO, Itoya, GINZA SIX)",
+      "note": "UNIQLO Ginza, Itoya, Mitsukoshi e GINZA SIX.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=GINZA%20SIX",
+      "file": "ck-sab-31-10.json",
+      "must": [
+        "195836283797974291"
+      ],
+      "insp": [],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L25",
+      "tab": "Sáb 31/10",
+      "city": "Tóquio",
+      "day": "Sáb 31/10",
+      "time": "19h",
+      "name": "Drift noturno",
+      "note": "Horário e local ainda a confirmar com o Kaido Club. Noite, pouca luz: lente clara.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Daikoku%20Parking%20Area",
+      "file": "ck-sab-31-10.json",
+      "must": [
+        "4503668373322419"
+      ],
+      "insp": [
+        "9288742978141368",
+        "6755468186685374",
+        "29554941301455582"
+      ],
+      "mine": [
+        "jp-03",
+        "jp-07",
+        "jp-09",
+        "jp-10",
+        "jp-11",
+        "jp-14",
+        "jp-16"
+      ],
+      "reels": [
+        "ig-Da0JKCVTVRf"
+      ]
+    },
+    {
+      "key": "L26",
+      "tab": "Dom 01/11",
+      "city": "Tóquio",
+      "day": "Dom 01/11",
+      "time": "9h",
+      "name": "Meiji Jingu",
+      "note": "O torii gigante fica na entrada. Domingo pode ter casamento tradicional: não atrapalhar.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Meiji%20Jingu",
+      "file": "ck-dom-01-11.json",
+      "must": [],
+      "insp": [
+        "4222193395011064",
+        "15973773674874567",
+        "782219029074802402"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L27",
+      "tab": "Dom 01/11",
+      "city": "Tóquio",
+      "day": "Dom 01/11",
+      "time": "10h30",
+      "name": "Café dos porquinhos (mipig)",
+      "note": "Sessão de 25 ou 55 min, reserva antecipada.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=mipig%20cafe%20Harajuku",
+      "file": "ck-dom-01-11.json",
+      "must": [],
+      "insp": [],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L28",
+      "tab": "Dom 01/11",
+      "city": "Tóquio",
+      "day": "Dom 01/11",
+      "time": "11h30",
+      "name": "Takeshita Street",
+      "note": "Domingo lota muito. Melhor take por cima da multidão, câmera alta.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Takeshita%20Street",
+      "file": "ck-dom-01-11.json",
+      "must": [],
+      "insp": [
+        "30751209955163113",
+        "85146249201055694",
+        "269512358948052357",
+        "602497256434965791",
+        "374080312822761569"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L29",
+      "tab": "Dom 01/11",
+      "city": "Tóquio",
+      "day": "Dom 01/11",
+      "time": "13h30",
+      "name": "Omotesando",
+      "note": "Arquitetura das lojas (Tod's, Dior, Prada Aoyama). Boa pra foto de look.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Omotesando",
+      "file": "ck-dom-01-11.json",
+      "must": [
+        "98094098130204599",
+        "57139489018026977",
+        "143552306888686410",
+        "67202219436892478"
+      ],
+      "insp": [
+        "81838918227478161"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L30",
+      "tab": "Dom 01/11",
+      "city": "Tóquio",
+      "day": "Dom 01/11",
+      "time": "16h30",
+      "name": "teamLab Planets",
+      "note": "Parte das salas tem água até o joelho e piso espelhado. Roupa que possa dobrar a barra.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=teamLab%20Planets",
+      "file": "ck-dom-01-11.json",
+      "must": [],
+      "insp": [],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L31",
+      "tab": "Dom 01/11",
+      "city": "Tóquio",
+      "day": "Dom 01/11",
+      "time": "19h30",
+      "name": "Odaiba / Toyosu à noite",
+      "note": "Rainbow Bridge e o Gundam à noite.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Odaiba",
+      "file": "ck-dom-01-11.json",
+      "must": [],
+      "insp": [
+        "96194142035711579",
+        "325385141807890691"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L32",
+      "tab": "Seg 02/11",
+      "city": "Tóquio",
+      "day": "Seg 02/11",
+      "time": "9h",
+      "name": "Nezu Shrine",
+      "note": "O túnel de torii vermelhos é estreito e fica vazio cedo: aproveite o horário das 9h.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Nezu%20Shrine",
+      "file": "ck-seg-02-11.json",
+      "must": [
+        "317785317459512489",
+        "1028580002429817032",
+        "807411039470119419",
+        "281475045456687325"
+      ],
+      "insp": [
+        "28991991344541234",
+        "432556739222782813",
+        "1023513452847811378"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L33",
+      "tab": "Seg 02/11",
+      "city": "Tóquio",
+      "day": "Seg 02/11",
+      "time": "10h20",
+      "name": "Yanaka Ginza",
+      "note": "Rua tradicional, comércio antigo.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Yanaka%20Ginza",
+      "file": "ck-seg-02-11.json",
+      "must": [],
+      "insp": [
+        "9851692935029519"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L34",
+      "tab": "Seg 02/11",
+      "city": "Tóquio",
+      "day": "Seg 02/11",
+      "time": "13h",
+      "name": "Senso-ji",
+      "note": "Às 13h vai estar cheio. Pro portão Kaminarimon, enquadre de baixo pra tirar a multidão.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Senso-ji",
+      "file": "ck-seg-02-11.json",
+      "must": [
+        "1000784348462286012",
+        "438749188722098587",
+        "516999232247716289",
+        "264586546854142797"
+      ],
+      "insp": [
+        "814447913931840817"
+      ],
+      "mine": [
+        "jp-15"
+      ],
+      "reels": []
+    },
+    {
+      "key": "L35",
+      "tab": "Seg 02/11",
+      "city": "Tóquio",
+      "day": "Seg 02/11",
+      "time": "13h40",
+      "name": "Nakamise Street",
+      "note": "Corredor de lojinhas que leva ao templo.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Nakamise%20Street",
+      "file": "ck-seg-02-11.json",
+      "must": [],
+      "insp": [
+        "542754192617947769",
+        "264375440622279017"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L36",
+      "tab": "Seg 02/11",
+      "city": "Tóquio",
+      "day": "Seg 02/11",
+      "time": "15h30",
+      "name": "Shibuya Sky",
+      "note": "No rooftop, bolsa, chapéu, tripé e qualquer objeto solto vão pro armário (confirmar as regras). Pôr do sol perto das 16h45.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Shibuya%20Sky",
+      "file": "ck-seg-02-11.json",
+      "must": [
+        "19914423348529085",
+        "251075747973346579"
+      ],
+      "insp": [
+        "615445105358909112"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L37",
+      "tab": "Seg 02/11",
+      "city": "Tóquio",
+      "day": "Seg 02/11",
+      "time": "19h",
+      "name": "Shibuya à noite / cruzamento",
+      "note": "Pra ver o cruzamento de cima: Starbucks do Tsutaya ou o rooftop do MAGNET by Shibuya109.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Shibuya%20Crossing",
+      "file": "ck-seg-02-11.json",
+      "must": [
+        "432345632996754682",
+        "945263409294415829"
+      ],
+      "insp": [
+        "814447913931841279",
+        "882564858250574910"
+      ],
+      "mine": [
+        "jp-01",
+        "jp-17",
+        "jp-18"
+      ],
+      "reels": [
+        "ig-DbwWYQzsccr"
+      ]
+    },
+    {
+      "key": "L38",
+      "tab": "Ter 03/11",
+      "city": "Tóquio",
+      "day": "Ter 03/11",
+      "time": "dia todo",
+      "name": "Disney Tóquio",
+      "note": "03/11 é feriado nacional (Dia da Cultura): tende a lotar, chegue cedo. Castelo iluminado às 17h.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Tokyo%20Disneyland",
+      "file": "ck-ter-03-11.json",
+      "must": [
+        "119063983897845805",
+        "140806234945036"
+      ],
+      "insp": [
+        "55872851620749778"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L39",
+      "tab": "Ter 03/11",
+      "city": "Tóquio",
+      "day": "Ter 03/11",
+      "time": "21h24",
+      "name": "Shinkansen pra Kyoto",
+      "note": "Nozomi 293 às 21h24. Estar na plataforma às 21h.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Tokyo%20Station",
+      "file": "ck-ter-03-11.json",
+      "must": [],
+      "insp": [],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L40",
+      "tab": "Kyoto",
+      "city": "Kyoto",
+      "day": "04 a 06/11",
+      "time": "a definir",
+      "name": "Fushimi Inari",
+      "note": "Muito cheio no meio do dia. Cedo ou fim de tarde, e quanto mais alto na trilha, mais vazio.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Fushimi%20Inari",
+      "file": "ck-kyoto.json",
+      "must": [
+        "33777065953398317",
+        "774124931974330"
+      ],
+      "insp": [
+        "1112670651725878926"
+      ],
+      "mine": [
+        "jp-12",
+        "jp-19",
+        "jp-20",
+        "jp-22"
+      ],
+      "reels": [
+        "ig-DazuXjtMBZT"
+      ]
+    },
+    {
+      "key": "L41",
+      "tab": "Kyoto",
+      "city": "Kyoto",
+      "day": "04 a 06/11",
+      "time": "a definir",
+      "name": "Kiyomizu-dera",
+      "note": "Cedo é bem mais vazio.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Kiyomizu-dera",
+      "file": "ck-kyoto.json",
+      "must": [
+        "1127870300456946920",
+        "4222193396042322"
+      ],
+      "insp": [
+        "132856257754704699",
+        "83175924391657627"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L42",
+      "tab": "Kyoto",
+      "city": "Kyoto",
+      "day": "04 a 06/11",
+      "time": "a definir",
+      "name": "Sannenzaka, Ninenzaka e Yasaka Pagoda",
+      "note": "Sannenzaka e Ninenzaka levam até a pagoda. Cedo pra ter a rua livre.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Yasaka%20Pagoda",
+      "file": "ck-kyoto.json",
+      "must": [],
+      "insp": [
+        "16677461115386227",
+        "41376890328890374",
+        "179721841376262879"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L43",
+      "tab": "Kyoto",
+      "city": "Kyoto",
+      "day": "04 a 06/11",
+      "time": "a definir",
+      "name": "Gion e Pontocho",
+      "note": "Desde 2024 é proibido entrar nos becos privados de Gion (com multa). Pontocho à noite.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Gion%20Kyoto",
+      "file": "ck-kyoto.json",
+      "must": [
+        "337840409565535398",
+        "600456562791810902"
+      ],
+      "insp": [
+        "1088604541226934718"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L44",
+      "tab": "Kyoto",
+      "city": "Kyoto",
+      "day": "04 a 06/11",
+      "time": "a definir",
+      "name": "Templo Dourado (Kinkaku-ji)",
+      "note": "Templo Dourado. A foto clássica é da margem do lago.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Kinkaku-ji",
+      "file": "ck-kyoto.json",
+      "must": [],
+      "insp": [
+        "250864641713173015"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L45",
+      "tab": "Kyoto",
+      "city": "Kyoto",
+      "day": "04 a 06/11",
+      "time": "a definir",
+      "name": "Arashiyama e rio Katsura",
+      "note": "Bambuzal lota depois das 8h. Ponte Togetsukyo sobre o rio Katsura.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Arashiyama%20Bamboo%20Grove",
+      "file": "ck-kyoto.json",
+      "must": [
+        "1759287349382275"
+      ],
+      "insp": [
+        "353743745756073470",
+        "181481059982949637"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L46",
+      "tab": "Kyoto",
+      "city": "Kyoto",
+      "day": "Qui 05/11",
+      "time": "a definir",
+      "name": "Cerimônia do chá",
+      "note": "Experiência já escolhida no roteiro (05/11). Mesmo dia do Webinário BQD PRO.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Kyoto%20tea%20ceremony",
+      "file": "ck-kyoto.json",
+      "must": [],
+      "insp": [
+        "1056094181356566263",
+        "92675704830478698",
+        "372813675427446833"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L47",
+      "tab": "Kyoto",
+      "city": "Kyoto",
+      "day": "04 a 06/11",
+      "time": "a definir",
+      "name": "Mercado Nishiki",
+      "note": "Mercado coberto, comida de rua.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Nishiki%20Market",
+      "file": "ck-kyoto.json",
+      "must": [],
+      "insp": [
+        "6192518232040897",
+        "776941373265487587"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L48",
+      "tab": "Osaka",
+      "city": "Osaka",
+      "day": "07 a 10/11",
+      "time": "a definir",
+      "name": "Dotonbori",
+      "note": "Placa da Glico vista da ponte Ebisu, à noite. 10/11 tem Webinário PRO antes da saída às 16h10.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Dotonbori",
+      "file": "ck-osaka.json",
+      "must": [
+        "365706432264199666",
+        "502362533457729512",
+        "337629303333630928"
+      ],
+      "insp": [
+        "12666442696822714"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L49",
+      "tab": "Osaka",
+      "city": "Osaka",
+      "day": "07 a 10/11",
+      "time": "a definir",
+      "name": "Castelo de Osaka",
+      "note": "Castelo com o fosso e as muralhas.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Osaka%20Castle",
+      "file": "ck-osaka.json",
+      "must": [
+        "24629129209295272",
+        "64668944646313691"
+      ],
+      "insp": [
+        "9499849203264942",
+        "23503229299027460"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L50",
+      "tab": "Osaka",
+      "city": "Osaka",
+      "day": "07 a 10/11",
+      "time": "a definir",
+      "name": "Shinsaibashi",
+      "note": "Galeria de compras coberta.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Shinsaibashi",
+      "file": "ck-osaka.json",
+      "must": [
+        "597008494399363039"
+      ],
+      "insp": [
+        "88594317664986222"
+      ],
+      "mine": [],
+      "reels": []
+    },
+    {
+      "key": "L51",
+      "tab": "Osaka",
+      "city": "Osaka",
+      "day": "07 a 10/11",
+      "time": "a definir",
+      "name": "Universal Studios Japan",
+      "note": "Super Nintendo World tem entrada com horário marcado.",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Universal%20Studios%20Japan",
+      "file": "ck-osaka.json",
+      "must": [],
+      "insp": [],
+      "mine": [],
+      "reels": []
+    }
+  ],
+  "desc": {
+    "jp-01": "Mulher de verde atravessando o cruzamento de Shibuya no fim de tarde, olhando pra trás pra câmera, plano vertical na faixa",
+    "jp-02": "Homem de branco de perfil no mirante da Pagoda Chureito, com o Fuji nevado e a pagoda vermelha no fundo, céu azul",
+    "jp-03": "Homem encostado num RX-7 laranja (carro do Han) numa ruela de restaurantes com lanternas à noite, retrato de corpo inteiro",
+    "jp-04": "Homem de casaco caramelo parado no meio da rua de Akihabara de dia, câmera baixa grande-angular com prédios de letreiros (Akihabara não está no roteiro)",
+    "jp-05": "Retrato frontal de rapaz numa viela estreita de letreiros neon ao anoitecer, estética de filme (parece imagem de IA, letreiros falsos)",
+    "jp-06": "Homem de camisa branca de costas no estacionamento da 7-Eleven com o Fuji nevado atrás, hora azul (região de Kawaguchiko)",
+    "jp-07": "Homem ao volante de um GT-R prata LB Performance com o braço na janela, à noite em frente a um torii iluminado com lanternas",
+    "jp-08": "Mulher de vestido subindo escadaria estreita de costas com a Tokyo Tower enquadrada no fim, luz de dia (Tokyo Tower não está no roteiro)",
+    "jp-09": "Dois caras com um Skyline R33 azul parado em frente à Yodobashi Camera à noite, flash direto estilo filme",
+    "jp-10": "Rapaz de jaqueta verde encostado num Skyline R34 amarelo em Jinnan 1-chome (Shibuya) à noite, flash direto",
+    "jp-11": "Still de Tokyo Drift: RX-7 laranja e preto vindo de frente na avenida com neon e fumaça à noite, câmera baixa",
+    "jp-12": "Homem descendo a escada dentro do túnel de torii laranjas do Fushimi Inari, plano central simétrico",
+    "jp-13": "Homem de costas com mala parado numa passagem de nível com trem passando borrado, de dia (vibe de chegada, não é Narita)",
+    "jp-14": "Mulher de balaclava encostada num GT-R branco soltando fogo pelo escapamento, parede de grafite à noite (placa europeia, não é Japão)",
+    "jp-15": "Mulher de costas com mochila olhando pra pagoda de cinco andares do Senso-ji, câmera baixa",
+    "jp-16": "Dois caras com um Silvia branco num mirante à noite com o skyline de Tóquio e a Tokyo Tower ao fundo (parece IA)",
+    "jp-17": "Rapaz de jaqueta colorida sentado numa caixa de rua no cruzamento de Shibuya de dia, retrato frontal com os telões atrás",
+    "jp-18": "Selfie grande-angular de homem de moletom azul no meio do cruzamento de Shibuya à noite com a multidão e os telões",
+    "jp-19": "Mulher na escadaria do portal de torii do Fushimi Inari olhando pra trás, câmera baixa contra o túnel vermelho",
+    "jp-20": "Homem de jaqueta jeans e óculos correndo em direção à câmera dentro do túnel de torii do Fushimi Inari",
+    "jp-22": "Imagem gerada por IA: homem de preto parado na escadaria do portal de torii do Fushimi Inari, enquadramento central",
+    "jp-23": "Imagem gerada por IA de Paris (está na pasta do Japão): homem de casaco preto numa sacada com a Torre Eiffel acesa no pôr do sol",
+    "jp-24": "Homem encostado num Porsche preto rebaixado na beira de uma estrada de serra com neblina (não parece Japão)",
+    "jp-25": "Homem de óculos escuros ao volante de um Mercedes, foto tirada pela porta traseira mostrando o interior",
+    "pa-01": "Homem sentado na mureta do Trocadéro olhando a Torre Eiffel no pôr do sol, de perfil, silhueta",
+    "pa-02": "Mulher de sobretudo andando no centro da Pont d'Iéna com a Torre Eiffel enquadrada, câmera rente ao chão",
+    "pa-03": "Silhueta de homem andando no arco da passagem Richelieu com a Pirâmide do Louvre enquadrada no fundo",
+    "pa-04": "Casal em silhueta (ele levantando ela) no arco da passagem Richelieu com a Pirâmide do Louvre atrás",
+    "pa-05": "Arco do Triunfo na hora azul com rastros de luz dos carros, longa exposição, sem pessoa",
+    "pa-06": "Homem de jaqueta preta andando em direção à câmera, centralizado na frente da Pirâmide do Louvre, luz suave de amanhecer",
+    "pa-07": "Homem de camisa listrada sentado de costas na borda olhando a Pirâmide do Louvre de dia",
+    "pa-08": "Homem de terno encostado na parede da escadaria do Trocadéro com sol duro e a Torre Eiffel à esquerda",
+    "pa-09": "Homem de sobretudo encostado num poste antigo com o Arco do Triunfo atrás, retrato de corpo inteiro",
+    "pa-10": "Homem de sobretudo preto encostado num pilar da ponte Bir-Hakeim com a Torre Eiffel no fundo, dia chuvoso (no roteiro é à noite)",
+    "pa-11": "Homem de sobretudo sentado na mureta do cais do Sena com ponte e árvores de outono ao fundo (cais do Sena não está no roteiro)",
+    "pa-12": "Casal em silhueta frente a frente no arco da passagem Richelieu com a Pirâmide do Louvre enquadrada",
+    "pa-13": "Retrato de homem de sobretudo andando na rua de paralelepípedo com a base da Torre Eiffel logo atrás, de dia (perto do Champ de Mars)"
+  },
+  "reels": [
+    {
+      "id": "ig-DdmFiRSNMKF",
+      "url": "https://www.instagram.com/reel/DdmFiRSNMKF/",
+      "cat": "intro_vlog",
+      "fav": false,
+      "nota": "ref visual de vídeo, serviria pra intro do vlog talvez, gosto da música",
+      "autor": "@_stievoo",
+      "musica": "",
+      "aproveitar": "Horizontal 4:3, cortes rápidos (~40 em 29s) de detalhes do Japão: gatos maneki-neko de Gotokuji, ritual de purificação no templo, portões vermelhos, cartas na mão, Castelo de Osaka e Dotonbori à noite; câmera parada/lenta, cor natural levemente quente, sem texto na tela.",
+      "dur": 28.8,
+      "has": true,
+      "loc": null
+    },
+    {
+      "id": "ig-DbwWYQzsccr",
+      "url": "https://www.instagram.com/reel/DbwWYQzsccr/",
+      "cat": "perfil_daniel",
+      "fav": false,
+      "nota": "quero gravar para o meu perfil pessoal (perfil do Daniel, @danfilms)",
+      "autor": "@stillchris",
+      "musica": "",
+      "aproveitar": "Selfie-vlog horizontal com câmera na mão: abre falando pra câmera no meio do cruzamento de Shibuya, depois montagem rápida de momentos (Skyline roxo, beco de Omoide Yokocho com guarda-chuva, cerejeiras, cervos de Nara, karaokê, amigos acenando em Miyajima); energia alta, cor crua de celular/vlog.",
+      "dur": 13.5,
+      "has": true,
+      "loc": "L37"
+    },
+    {
+      "id": "ig-DazuXjtMBZT",
+      "url": "https://www.instagram.com/reel/DazuXjtMBZT/",
+      "cat": "reel_iagor",
+      "fav": false,
+      "nota": "quero fazer esse reel com o Iagor",
+      "autor": "@whereismanuel",
+      "musica": "",
+      "aproveitar": "Gancho de print de iMessage em tela preta ('Hey, are you free tonight?' / 'No, I'm in Japan.') que corta pra sequência vertical de fotos/planos estáticos tipo foto (torii de Miyajima com cervo, túnel de torii de Fushimi Inari, bambuzal de Arashiyama, cerejeiras); cada imagem dura ~1s no beat.",
+      "dur": 11.8,
+      "has": true,
+      "loc": "L40"
+    },
+    {
+      "id": "ig-Dc_iziuM-uX",
+      "url": "https://www.instagram.com/reel/Dc_iziuM-uX/",
+      "cat": "intro_vlog",
+      "fav": false,
+      "nota": "outra ref que serve pra intro do vlog",
+      "autor": "@khatira.valiyeva",
+      "musica": "",
+      "aproveitar": "Abre com janela do avião à noite e texto serifado vermelho 'The next station is...', seguido de cartelas de cidade em vermelho sobre o plano (KYOTO 京都, OSAKA 大阪); mistura colagem/janelas sobrepostas, comida, trem verde, loja de discos e Pikachu, planos médios da protagonista de costas, cor quente estilo filme.",
+      "dur": 16.4,
+      "has": true,
+      "loc": null
+    },
+    {
+      "id": "ig-DeC1mDNAjts",
+      "url": "https://www.instagram.com/reel/DeC1mDNAjts/",
+      "cat": "vlog",
+      "fav": false,
+      "nota": "",
+      "autor": "@jake_hateley",
+      "musica": "",
+      "aproveitar": "Clipe curto (8,5s, ~18 cortes) gravado em DJI Osmo Pocket com planos baixos e estáveis: táxi preto em Dotonbori, letreiro da Glico, trilhos ao entardecer, escadaria com guarda-chuvas, daruma vermelhos, torii, rua de Fujiyoshida com o Fuji ao fundo e trem sobre ponte; cor cinematográfica noturna com contraste.",
+      "dur": 8.5,
+      "has": true,
+      "loc": null
+    },
+    {
+      "id": "ig-DPI3yjjjJEl",
+      "url": "https://www.instagram.com/reel/DPI3yjjjJEl/",
+      "cat": "vlog",
+      "fav": false,
+      "nota": "outra ref para o vlog",
+      "autor": "@whereismanuel",
+      "musica": "",
+      "aproveitar": "Vertical com letterbox cinemascope (faixa 2.39 no meio da tela 9:16) e título 'JAPAN' sobre o primeiro plano; poucos cortes, planos longos e lentos de izakaya com cozinheiro, ruas com neon, macacos de neve no onsen e lanternas com cerejeiras; tom calmo e contemplativo.",
+      "dur": 13.8,
+      "has": true,
+      "loc": null
+    },
+    {
+      "id": "ig-DT0VViek82E",
+      "url": "https://www.instagram.com/reel/DT0VViek82E/",
+      "cat": "vlog",
+      "fav": false,
+      "nota": "ref pro vlog",
+      "autor": "@bxnmxclean",
+      "musica": "",
+      "aproveitar": "Cartela de abertura minimalista 'A COLLECTION FROM TOKYO JAPAN' sobre beco escuro, depois ritmo muito rápido (~54 cortes em 17s) entre neon de Shibuya/Shinjuku, rua de Kyoto com pagoda Yasaka e o personagem andando de frente pra câmera em tracking; grade escura teal/laranja e lente grande-angular.",
+      "dur": 17.5,
+      "has": true,
+      "loc": null
+    },
+    {
+      "id": "ig-DZNtT89st9u",
+      "url": "https://www.instagram.com/reel/DZNtT89st9u/",
+      "cat": "vlog",
+      "fav": false,
+      "nota": "ref de Paris para o vlog",
+      "autor": "@paco.eckstein",
+      "musica": "",
+      "aproveitar": "Título 'PARIS' / '5 DAYS IN PARIS' em vermelho sobre os planos (inclusive por trás do personagem, efeito de texto atrás do sujeito), Torre Eiffel iluminada com barco no Sena, contra-luz de ombro olhando a torre, grande-angular girando em fachadas haussmannianas e caminhadas de costas; cor quente saturada.",
+      "dur": 13.3,
+      "has": true,
+      "loc": "L08"
+    },
+    {
+      "id": "ig-Da0JKCVTVRf",
+      "url": "https://www.instagram.com/reel/Da0JKCVTVRf/",
+      "cat": "vlog",
+      "fav": false,
+      "nota": "ref pro vlog",
+      "autor": "@lennymade_",
+      "musica": "",
+      "aproveitar": "Título 'JAPAN' em outline com 'TOKYO OSAKA KYOTO' em vermelho, texto atrás da pessoa; cortes no beat com whip/motion blur em táxi e carros, metrô por dentro, encontro de carros tunados em Daikoku (Integra verde, Lamborghini no cruzamento) e placa de estrada; grade fria lavada 'liquid glass'.",
+      "dur": 18.2,
+      "has": true,
+      "loc": "L25"
+    },
+    {
+      "id": "ig-DbKH2PzyWL7",
+      "url": "https://www.instagram.com/reel/DbKH2PzyWL7/",
+      "cat": "intro_vlog",
+      "fav": true,
+      "nota": "minha ref preferida para a intro do vlog",
+      "autor": "@calvin.uyy",
+      "musica": "",
+      "aproveitar": "Edição cinética muito rápida (~60 cortes em 15s) com tipografia vermelha grande aparecendo palavra por palavra ('IS...', 'NAPPA' sobre o portão de Kabukicho), molduras vermelhas encolhendo o plano, split-screen e flashes brancos de transição; planos de Skyline azul, prédio Namba Marui, Fuji, mar de Kamakura e torii.",
+      "dur": 15.6,
+      "has": true,
+      "loc": "L15"
+    },
+    {
+      "id": "ig-DdrSYoAygn1",
+      "url": "https://www.instagram.com/reel/DdrSYoAygn1/",
+      "cat": "vlog",
+      "fav": false,
+      "nota": "ref muito boa para o vlog também",
+      "autor": "@willieravenna",
+      "musica": "",
+      "aproveitar": "Montagem com humor e cara de vlog: close exagerado comendo com hashi, Fuji rosa refletido no lago, selfie falando em izakaya com lanternas, ramen Ichiran visto de cima, carros esportivos passando com motion blur, plano P&B de templo e legenda japonesa 'ありがとうございます' numa cena de rua; mistura de lentes e cores.",
+      "dur": 12.5,
+      "has": true,
+      "loc": null
+    },
+    {
+      "id": "ig-DU0Cj-6Elpz",
+      "url": "https://www.instagram.com/reel/DU0Cj-6Elpz/",
+      "cat": "vlog",
+      "fav": false,
+      "nota": "gosto muito dessa ref também",
+      "autor": "@1saeng_film",
+      "musica": "",
+      "aproveitar": "Ritmo rápido de cidade à noite: portão de Kabukicho, skyline com Tokyo Tower ao entardecer, vista aérea de cima do cruzamento de Shibuya, kart na rua, condutor de trem falando no microfone, yakitori na grelha e letreiros em contra-plongée; cor escura neutra, sem texto, sensação de 'ritmo da cidade'.",
+      "dur": 10.5,
+      "has": true,
+      "loc": null
+    },
+    {
+      "id": "ig-DaIBwOAoqva",
+      "url": "https://www.instagram.com/reel/DaIBwOAoqva/",
+      "cat": "vlog",
+      "fav": false,
+      "nota": "ref muito boa também",
+      "autor": "@radmirgolban",
+      "musica": "",
+      "aproveitar": "Abre na plataforma do metrô com texto vermelho 'THE NEXT STATION IS' e cartela 'TOKYO' em vermelho sobre o skyline; segue com POVs (pé na escada rolante, mão na máquina de venda, câmera descartável), carros tunados à noite, metrô lotado e moto em Shibuya; cor natural, cortes rápidos no beat.",
+      "dur": 14.8,
+      "has": true,
+      "loc": null
+    },
+    {
+      "id": "ig-Dbs4BIoTVDh",
+      "url": "https://www.instagram.com/reel/Dbs4BIoTVDh/",
+      "cat": "vlog",
+      "fav": false,
+      "nota": "ref boa",
+      "autor": "@lennymade_",
+      "musica": "",
+      "aproveitar": "Título '東京' gigante em vermelho com o vídeo dentro das letras sobre fundo vermelho ('TOKYO' embaixo), depois estilo 'lost files' com grão, vazamento de luz e cor de filme: POV dirigindo carro, Toyota antigo, rodovia com skyline, metrô, café gelado e cortina 'MATCHA', GT-R em rua estreita com filtro vermelho.",
+      "dur": 20.3,
+      "has": true,
+      "loc": null
+    }
+  ],
+  "extra": [
+    {
+      "id": "jp-04",
+      "desc": "Homem de casaco caramelo parado no meio da rua de Akihabara de dia, câmera baixa grande-angular com prédios de letreiros (Akihabara não está no roteiro)"
+    },
+    {
+      "id": "jp-08",
+      "desc": "Mulher de vestido subindo escadaria estreita de costas com a Tokyo Tower enquadrada no fim, luz de dia (Tokyo Tower não está no roteiro)"
+    },
+    {
+      "id": "pa-11",
+      "desc": "Homem de sobretudo sentado na mureta do cais do Sena com ponte e árvores de outono ao fundo (cais do Sena não está no roteiro)"
+    }
+  ]
+}

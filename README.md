@@ -1,0 +1,42 @@
+# Paris → Japão · plano de captação
+
+Revisão progressiva do site da viagem. O primeiro dia trabalhado é **Paris, 27/10/2026**. Os demais dias preservam as referências do roteiro original e aparecem como **a revisar**.
+
+## Revisão de Paris
+
+- 109 fotos originais preservadas e triadas individualmente.
+- Spots com posição de captura descrita, orientação de câmera, fontes, alternativa e nível de certeza.
+- Três Reels propostos, com 17 takes ligados aos spots da rota.
+- Sequência do dia e links de deslocamento por trecho.
+- Torre Eiffel às **16h40** e jantar **após as fotos** confirmados pelo Iagor em 23/10/2026.
+- Acesso ao Passage Richelieu, mesa/reserva do almoço, restaurante do jantar e hotel permanecem pendentes.
+
+“Cenário identificado” reconhece a arquitetura visível; não comprova o ponto exato da câmera original. Pins usam lugares/endereço nomeados. Hipóteses e substituições não são apresentadas como geolocalização confirmada. Tempos de deslocamento são estimativas editoriais; não usam tráfego em tempo real.
+
+## Organização dos arquivos
+
+- `index.html` e `assets/planner.*`: interface da revisão.
+- `data/paris-27.json`: auditoria de cada foto, spots, Reels, rota e fontes de Paris.
+- `data/referencias.json`: conteúdo original do site do Daniel.
+- `ck-*.json`: imagens originais, preservadas.
+- `arquivo.html`: site anterior completo para consulta.
+
+Para preparar outro dia, revisar primeiro as imagens e suas localizações, depois ligar os takes e só então ordenar a logística. A revisão de Paris ainda é uma proposta; não marcar outro dia como revisado por herdar um local genérico.
+
+## Escolhas e armazenamento
+
+Prioridades, fotos escolhidas/captadas, takes gravados e anotações são salvos **somente no navegador atual**. A tela de decisões exporta/importa uma revisão para compartilhar essas escolhas. Não há sincronização entre aparelhos nem aprovação coletiva automática. Marcações de captura da versão anterior são lidas como referência; não são apagadas.
+
+Desvios marcados pelo usuário não entram automaticamente na rota base. A tela avisa que é preciso replanejar. Cortar um bloco atualiza os pontos dos links de deslocamento, mas os horários continuam editoriais e precisam ser revalidados.
+
+## Prévia
+
+Site estático, sem dependências de build. Servir a pasta via HTTP, por exemplo `python3 -m http.server 8765`, e abrir `http://localhost:8765/`.
+
+## Validação desta revisão
+
+- Sintaxe JavaScript conferida com Node.
+- Integridade dos 109 IDs de foto e das ligações entre spots, refs, takes e rota.
+- No navegador: navegação, filtro de incompatibilidades, detalhe de foto, ligação Reel → spot e persistência de checklist após recarregar.
+
+Revisar o conteúdo por dia antes de integrar a branch à `main`, usada pelo GitHub Pages.
