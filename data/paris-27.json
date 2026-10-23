@@ -98,7 +98,10 @@
       "query": "Café Marly 93 Rue de Rivoli Paris",
       "alternative": null,
       "lat": 48.8615,
-      "lon": 2.3352
+      "lon": 2.3352,
+      "displayTitle": "Café Marly",
+      "summary": "Café e retrato na mesa, com o Louvre ao fundo.",
+      "displayTime": "13h00"
     },
     {
       "id": "louvre-main",
@@ -117,7 +120,10 @@
       "query": "Pyramide du Louvre Cour Napoléon Paris",
       "alternative": null,
       "lat": 48.8606,
-      "lon": 2.3353
+      "lon": 2.3353,
+      "displayTitle": "Pirâmide do Louvre",
+      "summary": "Caminhada e retrato no eixo da Pirâmide.",
+      "displayTime": "13h45"
     },
     {
       "id": "louvre-small",
@@ -136,7 +142,10 @@
       "query": "Cour Napoléon petites pyramides Louvre Paris",
       "alternative": "Se o eixo estiver cheio, usar a borda mais próxima da Pirâmide principal.",
       "lat": null,
-      "lon": null
+      "lon": null,
+      "displayTitle": "Pirâmide lateral",
+      "summary": "Retrato na borda, com duas pirâmides em profundidade.",
+      "displayTime": "Mesmo bloco"
     },
     {
       "id": "richelieu",
@@ -155,7 +164,10 @@
       "query": "Passage Richelieu Louvre Paris",
       "alternative": "Se fechado, retrato com a Pirâmide ao fundo na Cour Napoléon; perde a moldura do arco.",
       "lat": 48.8615,
-      "lon": 2.3361
+      "lon": 2.3361,
+      "displayTitle": "Passage Richelieu",
+      "summary": "Silhueta no arco, com a Pirâmide ao fundo.",
+      "displayTime": "14h00"
     },
     {
       "id": "palais-gallery",
@@ -174,7 +186,10 @@
       "query": "Galerie de Valois Jardin du Palais Royal Paris",
       "alternative": "Usar estas galerias para pose e luz; não atribuir as fotos originais a este endereço.",
       "lat": null,
-      "lon": null
+      "lon": null,
+      "displayTitle": "Galerias do Palais-Royal",
+      "summary": "Caminhada ou retrato entre as colunas.",
+      "displayTime": "14h20"
     },
     {
       "id": "palais-buren",
@@ -193,7 +208,10 @@
       "query": "Les Deux Plateaux Colonnes de Buren Paris",
       "alternative": null,
       "lat": 48.8635,
-      "lon": 2.3371
+      "lon": 2.3371,
+      "displayTitle": "Colunas de Buren",
+      "summary": "Plano baixo com as colunas listradas.",
+      "displayTime": "14h20"
     },
     {
       "id": "palais-garden",
@@ -212,7 +230,10 @@
       "query": "Fontaine Jardin du Palais Royal Paris",
       "alternative": null,
       "lat": null,
-      "lon": null
+      "lon": null,
+      "displayTitle": "Fonte do Palais-Royal",
+      "summary": "Retrato junto à água; só se sobrar tempo.",
+      "displayTime": "Opcional"
     },
     {
       "id": "metro",
@@ -231,7 +252,10 @@
       "query": "Palais Royal Musée du Louvre métro ligne 1 Paris",
       "alternative": null,
       "lat": 48.8627,
-      "lon": 2.3363
+      "lon": 2.3363,
+      "displayTitle": "Metrô · linha 1",
+      "summary": "Pessoa parada, trem passando no fundo.",
+      "displayTime": "14h30"
     },
     {
       "id": "arc",
@@ -250,7 +274,10 @@
       "query": "133 Avenue des Champs Élysées Paris Arc de Triomphe",
       "alternative": "Arco aparece de dia; não prometer longa exposição noturna nesta passagem.",
       "lat": 48.8733,
-      "lon": 2.2965
+      "lon": 2.2965,
+      "displayTitle": "Arco do Triunfo",
+      "summary": "Uma caminhada e um retrato pela calçada.",
+      "displayTime": "15h05"
     },
     {
       "id": "trocadero",
@@ -269,7 +296,10 @@
       "query": "Esplanade des Droits de l Homme Trocadéro Paris",
       "alternative": "O pôr do sol da referência vira luz da tarde, porque 16h40 já é o ingresso da Torre.",
       "lat": 48.8617,
-      "lon": 2.2881
+      "lon": 2.2881,
+      "displayTitle": "Trocadéro · parapeito",
+      "summary": "Torre inteira ao fundo, em pé ou de perfil.",
+      "displayTime": "15h40"
     },
     {
       "id": "trocadero-stairs",
@@ -288,7 +318,10 @@
       "query": "Escaliers Jardins du Trocadéro Palais de Chaillot Paris",
       "alternative": "Se o lance não bater, fazer a composição na esplanada e seguir para a Torre.",
       "lat": null,
-      "lon": null
+      "lon": null,
+      "displayTitle": "Trocadéro · escada",
+      "summary": "Retrato na parede clara, com a Torre de lado.",
+      "displayTime": "Mesmo bloco"
     },
     {
       "id": "iena",
@@ -307,7 +340,10 @@
       "query": "Pont d Iéna Paris",
       "alternative": null,
       "lat": 48.8597,
-      "lon": 2.2921
+      "lon": 2.2921,
+      "displayTitle": "Pont d’Iéna",
+      "summary": "Câmera baixa durante a travessia para a Torre.",
+      "displayTime": "15h55"
     },
     {
       "id": "tower",
@@ -327,7 +363,10 @@
       "query": "Tour Eiffel entrée jardins Paris",
       "alternative": null,
       "lat": 48.8584,
-      "lon": 2.2945
+      "lon": 2.2945,
+      "displayTitle": "Torre Eiffel · topo",
+      "summary": "Vista da cidade e detalhes da subida.",
+      "displayTime": "16h40 · fixo"
     },
     {
       "id": "tower-base",
@@ -346,7 +385,10 @@
       "query": "Champ de Mars Allée Paul Deschanel Paris",
       "alternative": null,
       "lat": null,
-      "lon": null
+      "lon": null,
+      "displayTitle": "Base da Torre",
+      "summary": "Retrato perto da estrutura, depois da visita.",
+      "displayTime": "Opcional"
     },
     {
       "id": "universite",
@@ -365,7 +407,10 @@
       "query": "228 Rue de l Université Paris",
       "alternative": "Foto na base da Torre, sem a mesma fachada. Não há retorno obrigatório a este ponto.",
       "lat": 48.8597,
-      "lon": 2.2964
+      "lon": 2.2964,
+      "displayTitle": "Rue de l’Université",
+      "summary": "Caminhada com a base da Torre; ponto candidato.",
+      "displayTime": "Após a Torre"
     },
     {
       "id": "quai",
@@ -385,7 +430,10 @@
       "query": "Quai Jacques Chirac Pont d Iéna Paris",
       "alternative": "Se a margem baixa estiver fechada, ficar na calçada alta do quai.",
       "lat": 48.8578,
-      "lon": 2.2915
+      "lon": 2.2915,
+      "displayTitle": "Sena · Torre à noite",
+      "summary": "Perfil ou costas com a Torre iluminada.",
+      "displayTime": "Após a Torre"
     },
     {
       "id": "bir-hakeim",
@@ -404,7 +452,10 @@
       "query": "Pont de Bir Hakeim colonnade Paris",
       "alternative": null,
       "lat": 48.8559,
-      "lon": 2.2876
+      "lon": 2.2876,
+      "displayTitle": "Bir-Hakeim",
+      "summary": "Caminhada entre os pilares e retrato lateral.",
+      "displayTime": "~20h15"
     },
     {
       "id": "camoens",
@@ -423,7 +474,10 @@
       "query": "Avenue de Camoëns escalier Boulevard Delessert Paris",
       "alternative": "Copiar jornal/pose no Trocadéro; perde o enquadramento entre prédios.",
       "lat": null,
-      "lon": null
+      "lon": null,
+      "displayTitle": "Avenue de Camoëns",
+      "summary": "Jornal e Torre entre as fachadas; exige desvio.",
+      "displayTime": "Extra"
     },
     {
       "id": "flore",
@@ -442,7 +496,10 @@
       "query": "Café de Flore 172 Boulevard Saint Germain Paris",
       "alternative": "Xícara, jornal e pose no Café Marly, sem fingir que é o mesmo local.",
       "lat": null,
-      "lon": null
+      "lon": null,
+      "displayTitle": "Café de Flore",
+      "summary": "Foto de café e jornal, em outro bairro.",
+      "displayTime": "Extra"
     },
     {
       "id": "garnier",
@@ -461,7 +518,10 @@
       "query": "Palais Garnier Grand Escalier Paris",
       "alternative": "Para pose entre colunas, usar as galerias externas do Palais-Royal; arquitetura será diferente.",
       "lat": null,
-      "lon": null
+      "lon": null,
+      "displayTitle": "Opéra Garnier",
+      "summary": "Escadaria interna; exige outra visita.",
+      "displayTime": "Extra"
     }
   ],
   "photos": [
@@ -2028,7 +2088,15 @@
           "text": "Plano lateral parado, pessoa junto ao pilar e Torre no fundo; segurar final.",
           "seconds": 10
         }
-      ]
+      ],
+      "displayTitle": "Noites em Paris",
+      "summary": "Caminhada, luzes e Torre ao fundo.",
+      "coverIds": [
+        "62417144829297228"
+      ],
+      "displayDuration": "12–15s",
+      "placesLabel": "Sena + Bir-Hakeim",
+      "displayType": "Edit"
     },
     {
       "id": "P02",
@@ -2097,7 +2165,15 @@
           "text": "Torre à noite + barco, apenas se aparecer; gravar versão sem barco também.",
           "seconds": 10
         }
-      ]
+      ],
+      "displayTitle": "Um dia em Paris",
+      "summary": "Cortes de café, ruas, monumentos e noite.",
+      "coverIds": [
+        "ig-DZNtT89st9u"
+      ],
+      "displayDuration": "10–15s",
+      "placesLabel": "Do Louvre à Torre",
+      "displayType": "Edit"
     },
     {
       "id": "P03",
@@ -2137,7 +2213,16 @@
           "text": "Vídeo do visor + foto entre os pilares; guardar o par junto.",
           "seconds": 8
         }
-      ]
+      ],
+      "displayTitle": "Paris no filme",
+      "summary": "O visor da câmera vira uma sequência de fotos.",
+      "coverIds": [
+        "pa-03",
+        "pa-10"
+      ],
+      "displayDuration": "10–20s",
+      "placesLabel": "Louvre · Trocadéro · Bir-Hakeim",
+      "displayType": "Trend de fotos"
     }
   ],
   "references": [
@@ -2372,5 +2457,16 @@
       "detail": "Identificação do cenário é forte, mas não confirma abertura do arco em 27/10.",
       "recommendation": "Manter plano B no pátio, no mesmo bloco, sem criar retorno."
     }
-  ]
+  ],
+  "presentation": {
+    "featuredPhotos": [
+      "pa-03",
+      "pa-07",
+      "pa-08",
+      "pa-09",
+      "pa-10",
+      "pa-13"
+    ],
+    "patternVersion": 1
+  }
 }

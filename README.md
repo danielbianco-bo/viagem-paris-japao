@@ -13,6 +13,19 @@ Revisão progressiva do site da viagem. O primeiro dia trabalhado é **Paris, 27
 
 “Cenário identificado” reconhece a arquitetura visível; não comprova o ponto exato da câmera original. Pins usam lugares/endereço nomeados. Hipóteses e substituições não são apresentadas como geolocalização confirmada. Tempos de deslocamento são estimativas editoriais; não usam tráfego em tempo real.
 
+## Padrão de interface
+
+Base: nota do vault `Projetos/Spark/UX-UI — Aprendizados para o redesign.md`, em especial hierarquia visual, consistência e detalhes sob demanda. O uso na viagem inclui celular.
+
+- **Entrada por Conteúdos:** cabeçalho curto, compromisso fixo e três abas principais: Conteúdos, Fotos & spots e Rota. Refs e pendências ficam em Mais.
+- **Card de Reel:** imagem, título curto, formato/duração, região e botão Ver roteiro. Checklist e gancho abrem no card; edição e áudio ficam numa expansão adicional.
+- **Card de spot:** fotos primeiro, horário, certeza da localização e uma frase sobre o que captar. Mapa visível; posição da câmera, acesso, seleção de fotos e fontes em Como captar.
+- **Foto aberta:** imagem grande, nome curto do spot, certeza e ação no mapa. Análise completa e pasta original ficam em Ver localização e análise.
+- **Rota:** uma linha por parada com horário, título e trajeto. Notas e pontos do bloco abrem sob demanda. O esquema fica recolhido.
+- **Preservar conteúdo:** resumos são campos de apresentação; análise, fontes, dados de captação e marcações continuam disponíveis. Não esconder incerteza ou compromisso fixo para reduzir texto.
+
+O mesmo cabeçalho, navegação, galeria, card e expansão são usados nos outros dias, sem tratá-los como revisados. Para novos dias, preencher os campos curtos (`displayTitle`, `summary`, `displayTime`, `coverIds`, `placesLabel`) junto dos dados completos. O padrão não depende de texto exclusivo de Paris.
+
 ## Organização dos arquivos
 
 - `index.html` e `assets/planner.*`: interface da revisão.
