@@ -1,0 +1,2475 @@
+{
+  "id": "paris-27",
+  "day": "Ter 27/10",
+  "date": "2026-10-27",
+  "city": "Paris",
+  "status": "draft",
+  "reviewedAt": "2026-10-23",
+  "hero": "pa-03",
+  "sources": [
+    {
+      "id": "louvre",
+      "title": "Louvre: terça fechado; pátios têm acesso próprio",
+      "url": "https://www.louvre.fr/en/visit/hours-admission/tickets-and-prices",
+      "supports": "Interiores do museu ficam fora de 27/10. As fotos externas do pátio continuam candidatas."
+    },
+    {
+      "id": "entrances",
+      "title": "Louvre: entradas e Passage Richelieu",
+      "url": "https://www.louvre.fr/en/visit/map-entrances-directions",
+      "supports": "Referência de acesso à passagem. Não confirma que o arco estará livre no dia."
+    },
+    {
+      "id": "marly",
+      "title": "Café Marly: endereço e terraço",
+      "url": "https://parisjetaime.com/restaurant/le-cafe-marly-p362",
+      "supports": "93 rue de Rivoli; terraço voltado à Pirâmide. Mesa específica não garantida."
+    },
+    {
+      "id": "flore",
+      "title": "Café de Flore: outro endereço",
+      "url": "https://cafedeflore.fr/",
+      "supports": "172 boulevard Saint-Germain; não fica no Louvre."
+    },
+    {
+      "id": "palais",
+      "title": "Palais-Royal: acesso público e horários",
+      "url": "https://www.domaine-palais-royal.fr/visiter/informations-pratiques",
+      "supports": "Entrada gratuita; 8h–20h30 de outubro a março."
+    },
+    {
+      "id": "garnier",
+      "title": "Palais Garnier: visita aos interiores",
+      "url": "https://www.operadeparis.fr/visites/venir-et-visiter/visites",
+      "supports": "Grand Escalier e Grand Foyer pertencem à Opéra, uma visita diferente do Palais-Royal."
+    },
+    {
+      "id": "eiffel-entry",
+      "title": "Torre Eiffel: preparação e segurança",
+      "url": "https://www.toureiffel.paris/en/planning-smooth-visit",
+      "supports": "Prever 15–20 min de segurança antes da esplanada. O plano reserva 25 min."
+    },
+    {
+      "id": "eiffel-time",
+      "title": "Torre Eiffel: duração recomendada",
+      "url": "https://www.toureiffel.paris/en/faq/getting-tower/visiting-time-limited",
+      "supports": "Referência oficial de cerca de 2h30 para visita completa até o topo; saída não garantida."
+    },
+    {
+      "id": "eiffel-spots",
+      "title": "Torre Eiffel: pontos de foto recomendados",
+      "url": "https://www.toureiffel.paris/en/news/recreation/best-spots-photographing-eiffel-tower",
+      "supports": "Trocadéro, Bir-Hakeim, margens do Sena e Camoëns têm perspectivas distintas. Não geolocaliza as refs originais."
+    },
+    {
+      "id": "sparkle",
+      "title": "Torre Eiffel: piscada de cinco minutos",
+      "url": "https://www.toureiffel.paris/en/news/visit/what-time-does-eiffel-tower-light-and-sparkle",
+      "supports": "Após escurecer, nos primeiros cinco minutos de cada hora. Escolher horário após a saída real da Torre."
+    },
+    {
+      "id": "ratp",
+      "title": "RATP: estação Charles de Gaulle–Étoile",
+      "url": "https://www.ratp.fr/en/vos-lignes/vos-stations/charles-de-gaulle-etoile",
+      "supports": "Conexão das linhas 1 e 6. Estimativas incluem caminhada e espera; conferir operação no dia."
+    },
+    {
+      "id": "london",
+      "title": "Tower Bridge: ponte de Londres",
+      "url": "https://www.towerbridge.org.uk/stories/history",
+      "supports": "As duas referências com torres e cabos azuis foram classificadas visualmente como Tower Bridge, fora de Paris."
+    }
+  ],
+  "spots": [
+    {
+      "id": "marly",
+      "title": "Café Marly · mesa no terraço",
+      "area": "Louvre",
+      "where": "93 rue de Rivoli, sob as arcadas, com vista para a Cour Napoléon.",
+      "camera": "Fotógrafo do lado oposto da mesa; deixar a Pirâmide ou a fachada do Louvre no fundo. Foto de café, mãos e perfil; não precisa copiar a mesa.",
+      "certainty": "identified",
+      "access": "Depende de conseguir mesa no terraço; confirmar reserva e enquadramento.",
+      "window": "13h00–13h45",
+      "minutes": 10,
+      "mode": "core",
+      "sources": [
+        "marly"
+      ],
+      "query": "Café Marly 93 Rue de Rivoli Paris",
+      "alternative": null,
+      "lat": 48.8615,
+      "lon": 2.3352,
+      "displayTitle": "Café Marly",
+      "summary": "Café e retrato na mesa, com o Louvre ao fundo.",
+      "displayTime": "13h00"
+    },
+    {
+      "id": "louvre-main",
+      "title": "Cour Napoléon · Pirâmide principal",
+      "area": "Louvre",
+      "where": "Área aberta do pátio, diante da face de entrada da Pirâmide principal. O pin leva ao pátio; ajustar eixo com a foto aberta.",
+      "camera": "Pessoa centralizada no eixo da Pirâmide ou sentada na borda baixa. Câmera aproximadamente na cintura; 1× para arquitetura, 2× para retrato. Não subir em estruturas.",
+      "certainty": "identified",
+      "access": "Exterior. Museu fechado na terça; acesso ao pátio é independente, sujeito a controle local.",
+      "window": "13h45–14h00",
+      "minutes": 15,
+      "mode": "core",
+      "sources": [
+        "louvre"
+      ],
+      "query": "Pyramide du Louvre Cour Napoléon Paris",
+      "alternative": null,
+      "lat": 48.8606,
+      "lon": 2.3353,
+      "displayTitle": "Pirâmide do Louvre",
+      "summary": "Caminhada e retrato no eixo da Pirâmide.",
+      "displayTime": "13h45"
+    },
+    {
+      "id": "louvre-small",
+      "title": "Cour Napoléon · pirâmide lateral",
+      "area": "Louvre",
+      "where": "Junto a uma das pirâmides menores e à borda dos espelhos d’água. A miniatura define o lado; não foi possível confirmar qual pirâmide pequena em cada foto.",
+      "camera": "Enquadrar duas pirâmides em profundidade ou a fachada lateral. Recuar para caber a pessoa; variar o lado da borda sem atravessar o pátio repetidamente.",
+      "certainty": "probable",
+      "access": "Mesmo pátio da Pirâmide principal. Sem garantia da posição exata da borda ou da quantidade de pessoas.",
+      "window": "Dentro do bloco do Louvre",
+      "minutes": 5,
+      "mode": "core",
+      "sources": [
+        "louvre"
+      ],
+      "query": "Cour Napoléon petites pyramides Louvre Paris",
+      "alternative": "Se o eixo estiver cheio, usar a borda mais próxima da Pirâmide principal.",
+      "lat": null,
+      "lon": null,
+      "displayTitle": "Pirâmide lateral",
+      "summary": "Retrato na borda, com duas pirâmides em profundidade.",
+      "displayTime": "Mesmo bloco"
+    },
+    {
+      "id": "richelieu",
+      "title": "Passage Richelieu · arco voltado à Pirâmide",
+      "area": "Louvre → Palais-Royal",
+      "where": "Passagem que conecta a rue de Rivoli à Cour Napoléon; buscar o arco com a Pirâmide enquadrada.",
+      "camera": "Câmera dentro da sombra, apontada para o pátio; pessoa em silhueta no arco. Medir exposição para o fundo. O metro exato da câmera é estimado.",
+      "certainty": "identified",
+      "access": "O cenário bate visualmente. Acesso ao arco em 27/10 ainda precisa ser conferido; não confundir com permissão de entrar no museu.",
+      "window": "14h00–14h10",
+      "minutes": 10,
+      "mode": "core",
+      "sources": [
+        "entrances"
+      ],
+      "query": "Passage Richelieu Louvre Paris",
+      "alternative": "Se fechado, retrato com a Pirâmide ao fundo na Cour Napoléon; perde a moldura do arco.",
+      "lat": 48.8615,
+      "lon": 2.3361,
+      "displayTitle": "Passage Richelieu",
+      "summary": "Silhueta no arco, com a Pirâmide ao fundo.",
+      "displayTime": "14h00"
+    },
+    {
+      "id": "palais-gallery",
+      "title": "Palais-Royal · galerias cobertas",
+      "area": "Palais-Royal",
+      "where": "Galerias ao redor do jardim, com acesso pelo domínio na rue de Montpensier. As refs de colunas são inspiração; nem todas foram identificadas aqui.",
+      "camera": "Fotógrafo alinhado ao corredor, pessoa apoiada lateralmente ou caminhando. Colunas menores e cenário diferente das grandes colunatas de algumas refs.",
+      "certainty": "alternative",
+      "access": "Exterior coberto acessível no domínio. Serve de substituição visual, sem prometer reprodução das refs desconhecidas.",
+      "window": "14h20–14h30",
+      "minutes": 10,
+      "mode": "core",
+      "sources": [
+        "palais"
+      ],
+      "query": "Galerie de Valois Jardin du Palais Royal Paris",
+      "alternative": "Usar estas galerias para pose e luz; não atribuir as fotos originais a este endereço.",
+      "lat": null,
+      "lon": null,
+      "displayTitle": "Galerias do Palais-Royal",
+      "summary": "Caminhada ou retrato entre as colunas.",
+      "displayTime": "14h20"
+    },
+    {
+      "id": "palais-buren",
+      "title": "Palais-Royal · colunas de Buren",
+      "area": "Palais-Royal",
+      "where": "Cour d’honneur, junto às colunas listradas; acesso pela rue de Montpensier.",
+      "camera": "Foto de corpo inteiro com as colunas baixas e o prédio ao fundo; câmera baixa sem apagar o padrão preto e branco.",
+      "certainty": "identified",
+      "access": "Pátio gratuito; consultar situação local.",
+      "window": "14h20–14h30",
+      "minutes": 5,
+      "mode": "core",
+      "sources": [
+        "palais"
+      ],
+      "query": "Les Deux Plateaux Colonnes de Buren Paris",
+      "alternative": null,
+      "lat": 48.8635,
+      "lon": 2.3371,
+      "displayTitle": "Colunas de Buren",
+      "summary": "Plano baixo com as colunas listradas.",
+      "displayTime": "14h20"
+    },
+    {
+      "id": "palais-garden",
+      "title": "Palais-Royal · fonte do jardim",
+      "area": "Palais-Royal",
+      "where": "Bassin central do Jardin du Palais-Royal. Referência de pessoa junto à fonte; posição exata não comprovada.",
+      "camera": "Pessoa na borda ou numa cadeira disponível; água e fachada ao fundo. Dar preferência ao lado que já estiver no caminho.",
+      "certainty": "probable",
+      "access": "Opcional dentro do mesmo complexo. Fonte e cadeiras podem mudar.",
+      "window": "Só se sobrar tempo até 14h30",
+      "minutes": 5,
+      "mode": "optional",
+      "sources": [
+        "palais"
+      ],
+      "query": "Fontaine Jardin du Palais Royal Paris",
+      "alternative": null,
+      "lat": null,
+      "lon": null,
+      "displayTitle": "Fonte do Palais-Royal",
+      "summary": "Retrato junto à água; só se sobrar tempo.",
+      "displayTime": "Opcional"
+    },
+    {
+      "id": "metro",
+      "title": "Palais-Royal–Musée du Louvre · plataforma",
+      "area": "Deslocamento",
+      "where": "Plataforma da linha 1, sentido La Défense, para sair em Charles de Gaulle–Étoile. As fotos de trem não comprovam esta estação.",
+      "camera": "Câmera parada, pessoa fora do fluxo, trem passando no fundo. Enquadramento é adaptação de linguagem, não reprodução da estação original.",
+      "certainty": "alternative",
+      "access": "Captar durante o trajeto. Não criar uma viagem separada só pelo take.",
+      "window": "14h30–15h05 · trajeto",
+      "minutes": 2,
+      "mode": "core",
+      "sources": [
+        "ratp"
+      ],
+      "query": "Palais Royal Musée du Louvre métro ligne 1 Paris",
+      "alternative": null,
+      "lat": 48.8627,
+      "lon": 2.3363,
+      "displayTitle": "Metrô · linha 1",
+      "summary": "Pessoa parada, trem passando no fundo.",
+      "displayTime": "14h30"
+    },
+    {
+      "id": "arc",
+      "title": "Arco · lado da Avenue des Champs-Élysées",
+      "area": "Étoile",
+      "where": "Calçada junto à Place Charles-de-Gaulle e ao início da Champs-Élysées. A foto com poste pede localizar um poste no mesmo lado da vista.",
+      "camera": "Fotógrafo de frente para o Arco, pessoa em primeiro plano. Para a simetria, usar uma área permitida de pedestres; as fotos com carros no eixo são adaptadas da calçada.",
+      "certainty": "identified",
+      "access": "Exterior. Não é necessário subir no Arco. A posição do poste das refs é estimada.",
+      "window": "15h05–15h20",
+      "minutes": 15,
+      "mode": "core",
+      "sources": [
+        "ratp"
+      ],
+      "query": "133 Avenue des Champs Élysées Paris Arc de Triomphe",
+      "alternative": "Arco aparece de dia; não prometer longa exposição noturna nesta passagem.",
+      "lat": 48.8733,
+      "lon": 2.2965,
+      "displayTitle": "Arco do Triunfo",
+      "summary": "Uma caminhada e um retrato pela calçada.",
+      "displayTime": "15h05"
+    },
+    {
+      "id": "trocadero",
+      "title": "Trocadéro · parapeito da esplanada",
+      "area": "Chaillot",
+      "where": "Esplanade des Droits de l’Homme, diante do Palais de Chaillot; eixo de frente para a Torre.",
+      "camera": "Pessoa junto ao parapeito, câmera apontada para a Torre. Foto de perfil e vídeo de costas. Fazer em pé se sentar na mureta não for permitido.",
+      "certainty": "identified",
+      "access": "Exterior. Não há garantia de pôr do sol, vazio ou acesso a uma seção específica da mureta.",
+      "window": "15h40–15h55",
+      "minutes": 10,
+      "mode": "core",
+      "sources": [
+        "eiffel-spots"
+      ],
+      "query": "Esplanade des Droits de l Homme Trocadéro Paris",
+      "alternative": "O pôr do sol da referência vira luz da tarde, porque 16h40 já é o ingresso da Torre.",
+      "lat": 48.8617,
+      "lon": 2.2881,
+      "displayTitle": "Trocadéro · parapeito",
+      "summary": "Torre inteira ao fundo, em pé ou de perfil.",
+      "displayTime": "15h40"
+    },
+    {
+      "id": "trocadero-stairs",
+      "title": "Trocadéro · escadaria lateral de Chaillot",
+      "area": "Chaillot",
+      "where": "Escadaria lateral que desce da esplanada aos jardins. A parede e a Torre da referência sugerem este conjunto; o lance exato não foi comprovado.",
+      "camera": "Pessoa encostada na parede clara; câmera de baixo para cima com a Torre no lado esquerdo. Procurar o lado que reproduz a composição sem desvio longo.",
+      "certainty": "probable",
+      "access": "Microspot incluído nos 15 min do Trocadéro, se acessível. Não confundir automaticamente com Avenue de Camoëns.",
+      "window": "Até 15h55, junto ao parapeito",
+      "minutes": 5,
+      "mode": "core",
+      "sources": [
+        "eiffel-spots"
+      ],
+      "query": "Escaliers Jardins du Trocadéro Palais de Chaillot Paris",
+      "alternative": "Se o lance não bater, fazer a composição na esplanada e seguir para a Torre.",
+      "lat": null,
+      "lon": null,
+      "displayTitle": "Trocadéro · escada",
+      "summary": "Retrato na parede clara, com a Torre de lado.",
+      "displayTime": "Mesmo bloco"
+    },
+    {
+      "id": "iena",
+      "title": "Pont d’Iéna · travessia para a Torre",
+      "area": "Trocadéro → Torre",
+      "where": "Calçada da ponte, saindo dos jardins em direção à Torre Eiffel.",
+      "camera": "Fotógrafo atrás da pessoa, câmera baixa com a Torre ao fundo. A referência no centro da via deve ser adaptada para a área permitida de pedestres.",
+      "certainty": "identified",
+      "access": "Captar enquanto atravessa, sem parar no fluxo de veículos.",
+      "window": "15h55–16h15 · caminhada",
+      "minutes": 2,
+      "mode": "core",
+      "sources": [
+        "eiffel-spots"
+      ],
+      "query": "Pont d Iéna Paris",
+      "alternative": null,
+      "lat": 48.8597,
+      "lon": 2.2921,
+      "displayTitle": "Pont d’Iéna",
+      "summary": "Câmera baixa durante a travessia para a Torre.",
+      "displayTime": "15h55"
+    },
+    {
+      "id": "tower",
+      "title": "Torre Eiffel · visita e topo",
+      "area": "Torre Eiffel",
+      "where": "Entrada nos jardins e segurança, depois fila correspondente ao ingresso das 16h40.",
+      "camera": "Detalhes do elevador, mão no corrimão e skyline no topo. A ref antes listada como topo era uma vista da Torre inteira a partir do Trocadéro.",
+      "certainty": "identified",
+      "access": "16h40 confirmado por Iagor em 23/10. Confirmar no próprio ingresso qual entrada/fila se aplica.",
+      "window": "Chegar 16h15 · visita 16h40–~19h10",
+      "minutes": 150,
+      "mode": "core",
+      "sources": [
+        "eiffel-entry",
+        "eiffel-time"
+      ],
+      "query": "Tour Eiffel entrée jardins Paris",
+      "alternative": null,
+      "lat": 48.8584,
+      "lon": 2.2945,
+      "displayTitle": "Torre Eiffel · topo",
+      "summary": "Vista da cidade e detalhes da subida.",
+      "displayTime": "16h40 · fixo"
+    },
+    {
+      "id": "tower-base",
+      "title": "Champ de Mars · vista próxima da estrutura",
+      "area": "Torre Eiffel",
+      "where": "Área externa junto ao Champ de Mars, com a Torre inteira ou sua base no fundo.",
+      "camera": "Enquadramento de baixo para cima. Estas refs estavam no Trocadéro, mas a estrutura ocupando o quadro indica uma câmera muito mais perto da Torre.",
+      "certainty": "identified",
+      "access": "Mesmo entorno da visita. Encaixar após a saída; não atravessar o parque só por isso.",
+      "window": "Após a visita · opcional",
+      "minutes": 5,
+      "mode": "optional",
+      "sources": [
+        "eiffel-spots"
+      ],
+      "query": "Champ de Mars Allée Paul Deschanel Paris",
+      "alternative": null,
+      "lat": null,
+      "lon": null,
+      "displayTitle": "Base da Torre",
+      "summary": "Retrato perto da estrutura, depois da visita.",
+      "displayTime": "Opcional"
+    },
+    {
+      "id": "universite",
+      "title": "Rue de l’Université · final junto à Torre",
+      "area": "Torre → Sena",
+      "where": "Trecho final próximo de 228 rue de l’Université e Allée Paul-Deschanel. É um candidato próximo para a ref pa-13; a rua original não foi comprovada.",
+      "camera": "Pessoa caminhando, fachada à esquerda e base da Torre atrás. Se o prédio não bater, copiar a composição no trecho público disponível.",
+      "certainty": "probable",
+      "access": "Adaptação noturna de uma foto diurna. Prioridade baixa se a saída da Torre atrasar.",
+      "window": "~19h15–19h25",
+      "minutes": 10,
+      "mode": "optional",
+      "sources": [
+        "eiffel-spots"
+      ],
+      "query": "228 Rue de l Université Paris",
+      "alternative": "Foto na base da Torre, sem a mesma fachada. Não há retorno obrigatório a este ponto.",
+      "lat": 48.8597,
+      "lon": 2.2964,
+      "displayTitle": "Rue de l’Université",
+      "summary": "Caminhada com a base da Torre; ponto candidato.",
+      "displayTime": "Após a Torre"
+    },
+    {
+      "id": "quai",
+      "title": "Quai Jacques-Chirac · margem do Sena",
+      "area": "Torre → Bir-Hakeim",
+      "where": "Margem do rio no trecho próximo da Torre e a oeste da Pont d’Iéna. Ponto de enquadramento escolhido como alternativa, não geolocalização exata das refs noturnas.",
+      "camera": "Pessoa de perfil/de costas junto ao guarda-corpo e Torre iluminada atrás. Testar o fundo antes de descer para o nível do rio; captar 8–10s estáticos.",
+      "certainty": "alternative",
+      "access": "Usar área pública acessível. Barco passando e piscada são oportunidades, não horários garantidos.",
+      "window": "~19h25–20h05 · primeira piscada que couber",
+      "minutes": 20,
+      "mode": "core",
+      "sources": [
+        "eiffel-spots",
+        "sparkle"
+      ],
+      "query": "Quai Jacques Chirac Pont d Iéna Paris",
+      "alternative": "Se a margem baixa estiver fechada, ficar na calçada alta do quai.",
+      "lat": 48.8578,
+      "lon": 2.2915,
+      "displayTitle": "Sena · Torre à noite",
+      "summary": "Perfil ou costas com a Torre iluminada.",
+      "displayTime": "Após a Torre"
+    },
+    {
+      "id": "bir-hakeim",
+      "title": "Bir-Hakeim · colunata sob o metrô",
+      "area": "Sena → Passy",
+      "where": "Passarela de pedestres sob o viaduto da linha 6, Pont de Bir-Hakeim. Para a Torre no fundo, usar a lateral voltada para montante.",
+      "camera": "Um take no eixo entre pilares e outro lateral com a Torre. Retrato apoiado no pilar, câmera na altura do peito. Reconhecer a estrutura antes de escolher o pilar.",
+      "certainty": "identified",
+      "access": "Exterior. As refs diurnas serão adaptadas à noite; a ponte de Londres saiu deste grupo.",
+      "window": "~20h15–20h35",
+      "minutes": 20,
+      "mode": "core",
+      "sources": [
+        "eiffel-spots"
+      ],
+      "query": "Pont de Bir Hakeim colonnade Paris",
+      "alternative": null,
+      "lat": 48.8559,
+      "lon": 2.2876,
+      "displayTitle": "Bir-Hakeim",
+      "summary": "Caminhada entre os pilares e retrato lateral.",
+      "displayTime": "~20h15"
+    },
+    {
+      "id": "camoens",
+      "title": "Avenue de Camoëns · escada para Delessert",
+      "area": "Passy · extra",
+      "where": "Escadaria entre Avenue de Camoëns e boulevard Delessert. Candidata para a foto de jornal que estava em “metrô”.",
+      "camera": "Fotógrafo no topo/lado da escada, pessoa no corrimão e Torre entre os prédios. Comparar com a miniatura para ajustar.",
+      "certainty": "probable",
+      "access": "É um desvio. Não cabe antes da Torre sem cortar outra captação.",
+      "window": "Fora da rota base · só com troca",
+      "minutes": 15,
+      "mode": "outside",
+      "sources": [
+        "eiffel-spots"
+      ],
+      "query": "Avenue de Camoëns escalier Boulevard Delessert Paris",
+      "alternative": "Copiar jornal/pose no Trocadéro; perde o enquadramento entre prédios.",
+      "lat": null,
+      "lon": null,
+      "displayTitle": "Avenue de Camoëns",
+      "summary": "Jornal e Torre entre as fachadas; exige desvio.",
+      "displayTime": "Extra"
+    },
+    {
+      "id": "flore",
+      "title": "Café de Flore · outro bairro",
+      "area": "Saint-Germain · extra",
+      "where": "172 boulevard Saint-Germain. Não é o Café Marly nem fica no complexo do Louvre.",
+      "camera": "A ref com o letreiro Flore é deste café; mesa/calçada exatas não garantidas.",
+      "certainty": "identified",
+      "access": "Desvio de bairro. Recomendo manter como inspiração de pose no Café Marly.",
+      "window": "Fora da rota base",
+      "minutes": 30,
+      "mode": "outside",
+      "sources": [
+        "flore"
+      ],
+      "query": "Café de Flore 172 Boulevard Saint Germain Paris",
+      "alternative": "Xícara, jornal e pose no Café Marly, sem fingir que é o mesmo local.",
+      "lat": null,
+      "lon": null,
+      "displayTitle": "Café de Flore",
+      "summary": "Foto de café e jornal, em outro bairro.",
+      "displayTime": "Extra"
+    },
+    {
+      "id": "garnier",
+      "title": "Palais Garnier · escadaria e salões",
+      "area": "Opéra · extra",
+      "where": "Visita interna da Opéra, em Place de l’Opéra. Não corresponde às colunas do Palais-Royal.",
+      "camera": "Escadaria ornamentada e balcão; algumas refs permitem reconhecer o Grand Escalier.",
+      "certainty": "identified",
+      "access": "Exige encaixe de outra visita e acesso próprio. Não entra no primeiro dia proposto.",
+      "window": "Fora da rota base",
+      "minutes": 60,
+      "mode": "outside",
+      "sources": [
+        "garnier"
+      ],
+      "query": "Palais Garnier Grand Escalier Paris",
+      "alternative": "Para pose entre colunas, usar as galerias externas do Palais-Royal; arquitetura será diferente.",
+      "lat": null,
+      "lon": null,
+      "displayTitle": "Opéra Garnier",
+      "summary": "Escadaria interna; exige outra visita.",
+      "displayTime": "Extra"
+    }
+  ],
+  "photos": [
+    {
+      "id": "138978338508755106",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Cenário reconhecível na Cour Napoléon. Face da Pirâmide, distância e ponto de apoio devem ser ajustados no local; nenhum metadado de câmera comprova o ponto exato.",
+      "alternativeSpotId": null,
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "insp",
+      "title": "Retrato com a Pirâmide",
+      "index": 1
+    },
+    {
+      "id": "178173729003376381",
+      "spotId": "louvre-small",
+      "precision": "probable",
+      "feasibility": "fits",
+      "note": "Pirâmide menor / sobreposição com a principal. Lado exato não comprovado; comparar fachadas no local.",
+      "alternativeSpotId": null,
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "must",
+      "title": "Pirâmides em profundidade",
+      "index": 4
+    },
+    {
+      "id": "81557443248628713",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Cenário reconhecível na Cour Napoléon. Face da Pirâmide, distância e ponto de apoio devem ser ajustados no local; nenhum metadado de câmera comprova o ponto exato.",
+      "alternativeSpotId": null,
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "insp",
+      "title": "Retrato com a Pirâmide",
+      "index": 8
+    },
+    {
+      "id": "4574037118887347",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Cenário reconhecível na Cour Napoléon. Face da Pirâmide, distância e ponto de apoio devem ser ajustados no local; nenhum metadado de câmera comprova o ponto exato.",
+      "alternativeSpotId": null,
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "insp",
+      "title": "Retrato com a Pirâmide",
+      "index": 10
+    },
+    {
+      "id": "145874475427109953",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Cenário reconhecível na Cour Napoléon. Face da Pirâmide, distância e ponto de apoio devem ser ajustados no local; nenhum metadado de câmera comprova o ponto exato.",
+      "alternativeSpotId": null,
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "must",
+      "title": "Retrato com a Pirâmide",
+      "index": 13
+    },
+    {
+      "id": "798685315215298143",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Cenário reconhecível na Cour Napoléon. Face da Pirâmide, distância e ponto de apoio devem ser ajustados no local; nenhum metadado de câmera comprova o ponto exato.",
+      "alternativeSpotId": null,
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "insp",
+      "title": "Retrato com a Pirâmide",
+      "index": 15
+    },
+    {
+      "id": "364862007335931698",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Cenário reconhecível na Cour Napoléon. Face da Pirâmide, distância e ponto de apoio devem ser ajustados no local; nenhum metadado de câmera comprova o ponto exato.",
+      "alternativeSpotId": null,
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "insp",
+      "title": "Retrato com a Pirâmide",
+      "index": 24
+    },
+    {
+      "id": "610167449552403419",
+      "spotId": "louvre-small",
+      "precision": "probable",
+      "feasibility": "fits",
+      "note": "Pirâmide menor / sobreposição com a principal. Lado exato não comprovado; comparar fachadas no local.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "insp",
+      "title": "Pirâmides em profundidade",
+      "index": 25
+    },
+    {
+      "id": "6544361955469134",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Cenário reconhecível na Cour Napoléon. Face da Pirâmide, distância e ponto de apoio devem ser ajustados no local; nenhum metadado de câmera comprova o ponto exato.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "insp",
+      "title": "Retrato com a Pirâmide",
+      "index": 26
+    },
+    {
+      "id": "339036678229940919",
+      "spotId": "louvre-small",
+      "precision": "probable",
+      "feasibility": "fits",
+      "note": "Pirâmide menor / sobreposição com a principal. Lado exato não comprovado; comparar fachadas no local.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "insp",
+      "title": "Pirâmides em profundidade",
+      "index": 27
+    },
+    {
+      "id": "479000110389306852",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Cenário reconhecível na Cour Napoléon. Face da Pirâmide, distância e ponto de apoio devem ser ajustados no local; nenhum metadado de câmera comprova o ponto exato.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "insp",
+      "title": "Retrato com a Pirâmide",
+      "index": 28
+    },
+    {
+      "id": "511369732714306819",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Cenário reconhecível na Cour Napoléon. Face da Pirâmide, distância e ponto de apoio devem ser ajustados no local; nenhum metadado de câmera comprova o ponto exato.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "must",
+      "title": "Retrato com a Pirâmide",
+      "index": 29
+    },
+    {
+      "id": "4292562141143867",
+      "spotId": "louvre-small",
+      "precision": "probable",
+      "feasibility": "fits",
+      "note": "Pirâmide menor / sobreposição com a principal. Lado exato não comprovado; comparar fachadas no local.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "insp",
+      "title": "Pirâmides em profundidade",
+      "index": 30
+    },
+    {
+      "id": "278026976968064423",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Cenário reconhecível na Cour Napoléon. Face da Pirâmide, distância e ponto de apoio devem ser ajustados no local; nenhum metadado de câmera comprova o ponto exato.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "insp",
+      "title": "Retrato com a Pirâmide",
+      "index": 31
+    },
+    {
+      "id": "66709638231341758",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Cenário reconhecível na Cour Napoléon. Face da Pirâmide, distância e ponto de apoio devem ser ajustados no local; nenhum metadado de câmera comprova o ponto exato.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "insp",
+      "title": "Retrato com a Pirâmide",
+      "index": 32
+    },
+    {
+      "id": "582934745568377241",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Cenário reconhecível na Cour Napoléon. Face da Pirâmide, distância e ponto de apoio devem ser ajustados no local; nenhum metadado de câmera comprova o ponto exato.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "insp",
+      "title": "Retrato com a Pirâmide",
+      "index": 33
+    },
+    {
+      "id": "590253094957621551",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Cenário reconhecível na Cour Napoléon. Face da Pirâmide, distância e ponto de apoio devem ser ajustados no local; nenhum metadado de câmera comprova o ponto exato.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "insp",
+      "title": "Retrato com a Pirâmide",
+      "index": 35
+    },
+    {
+      "id": "854417360604459990",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Cenário reconhecível na Cour Napoléon. Face da Pirâmide, distância e ponto de apoio devem ser ajustados no local; nenhum metadado de câmera comprova o ponto exato.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "insp",
+      "title": "Retrato com a Pirâmide",
+      "index": 36
+    },
+    {
+      "id": "823806956894247134",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Cenário reconhecível na Cour Napoléon. Face da Pirâmide, distância e ponto de apoio devem ser ajustados no local; nenhum metadado de câmera comprova o ponto exato.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "insp",
+      "title": "Retrato com a Pirâmide",
+      "index": 39
+    },
+    {
+      "id": "890235051365340808",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Cenário reconhecível na Cour Napoléon. Face da Pirâmide, distância e ponto de apoio devem ser ajustados no local; nenhum metadado de câmera comprova o ponto exato.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "insp",
+      "title": "Retrato com a Pirâmide",
+      "index": 40
+    },
+    {
+      "id": "60094976272272304",
+      "spotId": "louvre-small",
+      "precision": "probable",
+      "feasibility": "fits",
+      "note": "Pirâmide menor / sobreposição com a principal. Lado exato não comprovado; comparar fachadas no local.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "insp",
+      "title": "Pirâmides em profundidade",
+      "index": 41
+    },
+    {
+      "id": "353954851984386856",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Cenário reconhecível na Cour Napoléon. Face da Pirâmide, distância e ponto de apoio devem ser ajustados no local; nenhum metadado de câmera comprova o ponto exato.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "insp",
+      "title": "Retrato com a Pirâmide",
+      "index": 42
+    },
+    {
+      "id": "4574037118883474",
+      "spotId": "louvre-small",
+      "precision": "probable",
+      "feasibility": "fits",
+      "note": "Pirâmide menor / sobreposição com a principal. Lado exato não comprovado; comparar fachadas no local.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "insp",
+      "title": "Pirâmides em profundidade",
+      "index": 43
+    },
+    {
+      "id": "204984220534834407",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Cenário reconhecível na Cour Napoléon. Face da Pirâmide, distância e ponto de apoio devem ser ajustados no local; nenhum metadado de câmera comprova o ponto exato.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "insp",
+      "title": "Retrato com a Pirâmide",
+      "index": 45
+    },
+    {
+      "id": "393290979985029518",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Cenário reconhecível na Cour Napoléon. Face da Pirâmide, distância e ponto de apoio devem ser ajustados no local; nenhum metadado de câmera comprova o ponto exato.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "insp",
+      "title": "Retrato com a Pirâmide",
+      "index": 46
+    },
+    {
+      "id": "pa-06",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Cenário reconhecível na Cour Napoléon. Face da Pirâmide, distância e ponto de apoio devem ser ajustados no local; nenhum metadado de câmera comprova o ponto exato.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "mine",
+      "title": "Homem de jaqueta preta andando em direção à câmera, centralizado na frente da Pirâmide do Louvre, luz suave de amanhecer",
+      "index": 103
+    },
+    {
+      "id": "pa-07",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Cenário reconhecível na Cour Napoléon. Face da Pirâmide, distância e ponto de apoio devem ser ajustados no local; nenhum metadado de câmera comprova o ponto exato.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "mine",
+      "title": "Homem de camisa listrada sentado de costas na borda olhando a Pirâmide do Louvre de dia",
+      "index": 104
+    },
+    {
+      "id": "6544361955469125",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "adapt",
+      "note": "Foto noturna. Na rota passa-se aqui de dia; aproveitar composição e pose. Refazer à noite exigiria retornar ao Louvre, fora da proposta.",
+      "alternativeSpotId": null,
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "insp",
+      "title": "Retrato com a Pirâmide",
+      "index": 7
+    },
+    {
+      "id": "72761350251283425",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "adapt",
+      "note": "Foto noturna. Na rota passa-se aqui de dia; aproveitar composição e pose. Refazer à noite exigiria retornar ao Louvre, fora da proposta.",
+      "alternativeSpotId": null,
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "must",
+      "title": "Retrato com a Pirâmide",
+      "index": 16
+    },
+    {
+      "id": "163959242681880019",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "adapt",
+      "note": "Foto noturna. Na rota passa-se aqui de dia; aproveitar composição e pose. Refazer à noite exigiria retornar ao Louvre, fora da proposta.",
+      "alternativeSpotId": null,
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "insp",
+      "title": "Retrato com a Pirâmide",
+      "index": 18
+    },
+    {
+      "id": "364862007335931952",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "adapt",
+      "note": "Foto noturna. Na rota passa-se aqui de dia; aproveitar composição e pose. Refazer à noite exigiria retornar ao Louvre, fora da proposta.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "insp",
+      "title": "Retrato com a Pirâmide",
+      "index": 34
+    },
+    {
+      "id": "595038169561009001",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "adapt",
+      "note": "Foto noturna. Na rota passa-se aqui de dia; aproveitar composição e pose. Refazer à noite exigiria retornar ao Louvre, fora da proposta.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "insp",
+      "title": "Retrato com a Pirâmide",
+      "index": 37
+    },
+    {
+      "id": "714805772151002790",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "adapt",
+      "note": "Foto noturna. Na rota passa-se aqui de dia; aproveitar composição e pose. Refazer à noite exigiria retornar ao Louvre, fora da proposta.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "insp",
+      "title": "Retrato com a Pirâmide",
+      "index": 38
+    },
+    {
+      "id": "100205160453613663",
+      "spotId": "louvre-main",
+      "precision": "identified",
+      "feasibility": "adapt",
+      "note": "Foto noturna. Na rota passa-se aqui de dia; aproveitar composição e pose. Refazer à noite exigiria retornar ao Louvre, fora da proposta.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "insp",
+      "title": "Retrato com a Pirâmide",
+      "index": 44
+    },
+    {
+      "id": "814940495121147351",
+      "spotId": "marly",
+      "precision": "probable",
+      "feasibility": "fits",
+      "note": "Terraço com fachada do Louvre/Pirâmide. O Marly é candidato compatível; mesa e estabelecimento da segunda ref não estão comprovados.",
+      "alternativeSpotId": null,
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "insp",
+      "title": "Mesa de café e arquitetura",
+      "index": 9
+    },
+    {
+      "id": "713257659773410973",
+      "spotId": "marly",
+      "precision": "probable",
+      "feasibility": "fits",
+      "note": "Terraço com fachada do Louvre/Pirâmide. O Marly é candidato compatível; mesa e estabelecimento da segunda ref não estão comprovados.",
+      "alternativeSpotId": null,
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "insp",
+      "title": "Mesa de café e arquitetura",
+      "index": 22
+    },
+    {
+      "id": "14355292557817458",
+      "spotId": "flore",
+      "precision": "identified",
+      "feasibility": "optional",
+      "note": "Letreiro “Café de Flore” visível. Endereço fora do almoço do Louvre; não confundir com Marly.",
+      "alternativeSpotId": "marly",
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "must",
+      "title": "Jornal na mesa de café",
+      "index": 2
+    },
+    {
+      "id": "353954851986244233",
+      "spotId": "flore",
+      "precision": "probable",
+      "feasibility": "optional",
+      "note": "Café parisiense com jornal; candidato Flore, identificação da mesa não comprovada. Usar pose no Marly.",
+      "alternativeSpotId": "marly",
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "insp",
+      "title": "Jornal na mesa de café",
+      "index": 19
+    },
+    {
+      "id": "151292868727090024",
+      "spotId": null,
+      "precision": "identified",
+      "feasibility": "blocked",
+      "note": "Interior do Louvre: obras/escadaria do museu. Louvre fecha terça, 27/10; não pertence ao almoço nem ao pátio.",
+      "alternativeSpotId": "louvre-main",
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "insp",
+      "title": "Referência com localização pendente",
+      "index": 3
+    },
+    {
+      "id": "177470041560729806",
+      "spotId": null,
+      "precision": "identified",
+      "feasibility": "blocked",
+      "note": "Interior do Louvre: obras/escadaria do museu. Louvre fecha terça, 27/10; não pertence ao almoço nem ao pátio.",
+      "alternativeSpotId": "louvre-main",
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "must",
+      "title": "Referência com localização pendente",
+      "index": 5
+    },
+    {
+      "id": "326299935525898672",
+      "spotId": null,
+      "precision": "identified",
+      "feasibility": "blocked",
+      "note": "Interior do Louvre: obras/escadaria do museu. Louvre fecha terça, 27/10; não pertence ao almoço nem ao pátio.",
+      "alternativeSpotId": "louvre-main",
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "must",
+      "title": "Referência com localização pendente",
+      "index": 11
+    },
+    {
+      "id": "6544361955469336",
+      "spotId": null,
+      "precision": "identified",
+      "feasibility": "blocked",
+      "note": "Interior do Louvre: obras/escadaria do museu. Louvre fecha terça, 27/10; não pertence ao almoço nem ao pátio.",
+      "alternativeSpotId": "louvre-main",
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "insp",
+      "title": "Referência com localização pendente",
+      "index": 17
+    },
+    {
+      "id": "145663369220851804",
+      "spotId": "palais-garden",
+      "precision": "probable",
+      "feasibility": "optional",
+      "note": "Cadeira junto a uma fonte em jardim; hipótese Palais-Royal. Não há pista suficiente para garantir este jardim específico.",
+      "alternativeSpotId": null,
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "must",
+      "title": "Retrato junto à fonte",
+      "index": 6
+    },
+    {
+      "id": "163185186492374167",
+      "spotId": "palais-garden",
+      "precision": "probable",
+      "feasibility": "optional",
+      "note": "Fonte com fachada de jardim ao fundo; hipótese Palais-Royal. Foi salva no almoço do Louvre; precisa de ajuste de posição no local.",
+      "alternativeSpotId": null,
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "insp",
+      "title": "Retrato junto à fonte",
+      "index": 12
+    },
+    {
+      "id": "28921622603076296",
+      "spotId": "garnier",
+      "precision": "identified",
+      "feasibility": "optional",
+      "note": "Escadaria monumental reconhecível como Palais Garnier; não é o pátio do Palais-Royal. Outra visita, fora da rota base.",
+      "alternativeSpotId": "palais-gallery",
+      "originalLocation": "Palais Royal (5 min do Louvre)",
+      "originalLocationId": "L02",
+      "originalPriority": "must",
+      "title": "Escadaria monumental",
+      "index": 48
+    },
+    {
+      "id": "354869645660212825",
+      "spotId": "garnier",
+      "precision": "identified",
+      "feasibility": "optional",
+      "note": "Escadaria monumental reconhecível como Palais Garnier; não é o pátio do Palais-Royal. Outra visita, fora da rota base.",
+      "alternativeSpotId": "palais-gallery",
+      "originalLocation": "Palais Royal (5 min do Louvre)",
+      "originalLocationId": "L02",
+      "originalPriority": "insp",
+      "title": "Escadaria monumental",
+      "index": 49
+    },
+    {
+      "id": "7177680653163113",
+      "spotId": "garnier",
+      "precision": "identified",
+      "feasibility": "optional",
+      "note": "Escadaria monumental reconhecível como Palais Garnier; não é o pátio do Palais-Royal. Outra visita, fora da rota base.",
+      "alternativeSpotId": "palais-gallery",
+      "originalLocation": "Palais Royal (5 min do Louvre)",
+      "originalLocationId": "L02",
+      "originalPriority": "insp",
+      "title": "Escadaria monumental",
+      "index": 61
+    },
+    {
+      "id": "87679523992081007",
+      "spotId": "palais-buren",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Colunas baixas listradas e pátio reconhecíveis como instalação de Buren. Posição individual da coluna não comprovada.",
+      "alternativeSpotId": null,
+      "originalLocation": "Palais Royal (5 min do Louvre)",
+      "originalLocationId": "L02",
+      "originalPriority": "insp",
+      "title": "Retrato nas colunas listradas",
+      "index": 54
+    },
+    {
+      "id": "71353975343549941",
+      "spotId": "palais-gallery",
+      "precision": "probable",
+      "feasibility": "adapt",
+      "note": "Galerias de pedra compatíveis com o Palais-Royal, mas sem prova suficiente do corredor exato; reproduzir composição na galeria pública disponível.",
+      "alternativeSpotId": null,
+      "originalLocation": "Palais Royal (5 min do Louvre)",
+      "originalLocationId": "L02",
+      "originalPriority": "insp",
+      "title": "Pose entre colunas",
+      "index": 50
+    },
+    {
+      "id": "367395282123686381",
+      "spotId": "palais-gallery",
+      "precision": "probable",
+      "feasibility": "adapt",
+      "note": "Galerias de pedra compatíveis com o Palais-Royal, mas sem prova suficiente do corredor exato; reproduzir composição na galeria pública disponível.",
+      "alternativeSpotId": null,
+      "originalLocation": "Palais Royal (5 min do Louvre)",
+      "originalLocationId": "L02",
+      "originalPriority": "insp",
+      "title": "Pose entre colunas",
+      "index": 53
+    },
+    {
+      "id": "218846863143038398",
+      "spotId": "palais-gallery",
+      "precision": "probable",
+      "feasibility": "adapt",
+      "note": "Galerias de pedra compatíveis com o Palais-Royal, mas sem prova suficiente do corredor exato; reproduzir composição na galeria pública disponível.",
+      "alternativeSpotId": null,
+      "originalLocation": "Palais Royal (5 min do Louvre)",
+      "originalLocationId": "L02",
+      "originalPriority": "insp",
+      "title": "Pose entre colunas",
+      "index": 56
+    },
+    {
+      "id": "41517627813234932",
+      "spotId": null,
+      "precision": "unknown",
+      "feasibility": "unlocated",
+      "note": "A imagem não comprova o Palais-Royal nem um ponto público específico. Há interiores e colunatas diferentes. Manter como referência de pose/luz, sem pin inventado.",
+      "alternativeSpotId": "palais-gallery",
+      "originalLocation": "Palais Royal (5 min do Louvre)",
+      "originalLocationId": "L02",
+      "originalPriority": "must",
+      "title": "Referência com localização pendente",
+      "index": 47
+    },
+    {
+      "id": "229472543509505024",
+      "spotId": null,
+      "precision": "unknown",
+      "feasibility": "unlocated",
+      "note": "A imagem não comprova o Palais-Royal nem um ponto público específico. Há interiores e colunatas diferentes. Manter como referência de pose/luz, sem pin inventado.",
+      "alternativeSpotId": "palais-gallery",
+      "originalLocation": "Palais Royal (5 min do Louvre)",
+      "originalLocationId": "L02",
+      "originalPriority": "insp",
+      "title": "Referência com localização pendente",
+      "index": 51
+    },
+    {
+      "id": "624100460907808985",
+      "spotId": null,
+      "precision": "unknown",
+      "feasibility": "unlocated",
+      "note": "A imagem não comprova o Palais-Royal nem um ponto público específico. Há interiores e colunatas diferentes. Manter como referência de pose/luz, sem pin inventado.",
+      "alternativeSpotId": "palais-gallery",
+      "originalLocation": "Palais Royal (5 min do Louvre)",
+      "originalLocationId": "L02",
+      "originalPriority": "insp",
+      "title": "Referência com localização pendente",
+      "index": 55
+    },
+    {
+      "id": "312859505385592137",
+      "spotId": null,
+      "precision": "unknown",
+      "feasibility": "unlocated",
+      "note": "A imagem não comprova o Palais-Royal nem um ponto público específico. Há interiores e colunatas diferentes. Manter como referência de pose/luz, sem pin inventado.",
+      "alternativeSpotId": "palais-gallery",
+      "originalLocation": "Palais Royal (5 min do Louvre)",
+      "originalLocationId": "L02",
+      "originalPriority": "must",
+      "title": "Referência com localização pendente",
+      "index": 57
+    },
+    {
+      "id": "116952921570012486",
+      "spotId": null,
+      "precision": "unknown",
+      "feasibility": "unlocated",
+      "note": "A imagem não comprova o Palais-Royal nem um ponto público específico. Há interiores e colunatas diferentes. Manter como referência de pose/luz, sem pin inventado.",
+      "alternativeSpotId": "palais-gallery",
+      "originalLocation": "Palais Royal (5 min do Louvre)",
+      "originalLocationId": "L02",
+      "originalPriority": "insp",
+      "title": "Referência com localização pendente",
+      "index": 58
+    },
+    {
+      "id": "348747564919476300",
+      "spotId": null,
+      "precision": "unknown",
+      "feasibility": "unlocated",
+      "note": "A imagem não comprova o Palais-Royal nem um ponto público específico. Há interiores e colunatas diferentes. Manter como referência de pose/luz, sem pin inventado.",
+      "alternativeSpotId": "palais-gallery",
+      "originalLocation": "Palais Royal (5 min do Louvre)",
+      "originalLocationId": "L02",
+      "originalPriority": "must",
+      "title": "Referência com localização pendente",
+      "index": 59
+    },
+    {
+      "id": "89368373851707346",
+      "spotId": null,
+      "precision": "unknown",
+      "feasibility": "unlocated",
+      "note": "A imagem não comprova o Palais-Royal nem um ponto público específico. Há interiores e colunatas diferentes. Manter como referência de pose/luz, sem pin inventado.",
+      "alternativeSpotId": "palais-gallery",
+      "originalLocation": "Palais Royal (5 min do Louvre)",
+      "originalLocationId": "L02",
+      "originalPriority": "insp",
+      "title": "Referência com localização pendente",
+      "index": 60
+    },
+    {
+      "id": "64246732183003948",
+      "spotId": null,
+      "precision": "unknown",
+      "feasibility": "unlocated",
+      "note": "A imagem não comprova o Palais-Royal nem um ponto público específico. Há interiores e colunatas diferentes. Manter como referência de pose/luz, sem pin inventado.",
+      "alternativeSpotId": "palais-gallery",
+      "originalLocation": "Palais Royal (5 min do Louvre)",
+      "originalLocationId": "L02",
+      "originalPriority": "insp",
+      "title": "Referência com localização pendente",
+      "index": 62
+    },
+    {
+      "id": "401664860538172681",
+      "spotId": null,
+      "precision": "unknown",
+      "feasibility": "unlocated",
+      "note": "A imagem não comprova o Palais-Royal nem um ponto público específico. Há interiores e colunatas diferentes. Manter como referência de pose/luz, sem pin inventado.",
+      "alternativeSpotId": "palais-gallery",
+      "originalLocation": "Palais Royal (5 min do Louvre)",
+      "originalLocationId": "L02",
+      "originalPriority": "insp",
+      "title": "Referência com localização pendente",
+      "index": 63
+    },
+    {
+      "id": "5277724560534582",
+      "spotId": null,
+      "precision": "unknown",
+      "feasibility": "unlocated",
+      "note": "A imagem não comprova o Palais-Royal nem um ponto público específico. Há interiores e colunatas diferentes. Manter como referência de pose/luz, sem pin inventado.",
+      "alternativeSpotId": "palais-gallery",
+      "originalLocation": "Palais Royal (5 min do Louvre)",
+      "originalLocationId": "L02",
+      "originalPriority": "insp",
+      "title": "Referência com localização pendente",
+      "index": 64
+    },
+    {
+      "id": "51298883252800584",
+      "spotId": null,
+      "precision": "unknown",
+      "feasibility": "unlocated",
+      "note": "Café com localização específica não comprovada. Foto de xícara/jornal pode ser adaptada no almoço que já está no roteiro.",
+      "alternativeSpotId": "marly",
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "insp",
+      "title": "Referência com localização pendente",
+      "index": 14
+    },
+    {
+      "id": "25121710418757056",
+      "spotId": null,
+      "precision": "unknown",
+      "feasibility": "unlocated",
+      "note": "Café com localização específica não comprovada. Foto de xícara/jornal pode ser adaptada no almoço que já está no roteiro.",
+      "alternativeSpotId": "marly",
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "insp",
+      "title": "Referência com localização pendente",
+      "index": 20
+    },
+    {
+      "id": "778982066839985579",
+      "spotId": null,
+      "precision": "unknown",
+      "feasibility": "unlocated",
+      "note": "Café com localização específica não comprovada. Foto de xícara/jornal pode ser adaptada no almoço que já está no roteiro.",
+      "alternativeSpotId": "marly",
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "insp",
+      "title": "Referência com localização pendente",
+      "index": 21
+    },
+    {
+      "id": "345651340174804166",
+      "spotId": null,
+      "precision": "unknown",
+      "feasibility": "unlocated",
+      "note": "Fachada de pedra e grade, sem pista suficiente para localizar o trecho. Usar como pose de referência nas galerias previstas.",
+      "alternativeSpotId": "palais-gallery",
+      "originalLocation": "Almoço perto do Louvre",
+      "originalLocationId": "L00",
+      "originalPriority": "insp",
+      "title": "Referência com localização pendente",
+      "index": 23
+    },
+    {
+      "id": "186969822026175628",
+      "spotId": null,
+      "precision": "unknown",
+      "feasibility": "unlocated",
+      "note": "Escada e mureta não permitem localizar com segurança. Inspirar pose em uma escada pública da rota.",
+      "alternativeSpotId": "trocadero-stairs",
+      "originalLocation": "Palais Royal (5 min do Louvre)",
+      "originalLocationId": "L02",
+      "originalPriority": "insp",
+      "title": "Referência com localização pendente",
+      "index": 52
+    },
+    {
+      "id": "4362930885097979",
+      "spotId": null,
+      "precision": "unknown",
+      "feasibility": "unlocated",
+      "note": "Trem amarelo; não comprova metrô de Paris nem a estação prevista. Aproveitar linguagem do trem passando, sem atribuir endereço.",
+      "alternativeSpotId": "metro",
+      "originalLocation": "Metrô de Paris",
+      "originalLocationId": "L03",
+      "originalPriority": "insp",
+      "title": "Referência com localização pendente",
+      "index": 65
+    },
+    {
+      "id": "4362930885097973",
+      "spotId": "metro",
+      "precision": "unknown",
+      "feasibility": "adapt",
+      "note": "Take de plataforma com trem. Estação original não comprovada; fazer na linha 1 durante o deslocamento real.",
+      "alternativeSpotId": null,
+      "originalLocation": "Metrô de Paris",
+      "originalLocationId": "L03",
+      "originalPriority": "insp",
+      "title": "Trem passando na plataforma",
+      "index": 66
+    },
+    {
+      "id": "85216617947429075",
+      "spotId": "metro",
+      "precision": "unknown",
+      "feasibility": "adapt",
+      "note": "Take de plataforma com trem. Estação original não comprovada; fazer na linha 1 durante o deslocamento real.",
+      "alternativeSpotId": null,
+      "originalLocation": "Metrô de Paris",
+      "originalLocationId": "L03",
+      "originalPriority": "insp",
+      "title": "Trem passando na plataforma",
+      "index": 69
+    },
+    {
+      "id": "134334001382467291",
+      "spotId": "arc",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Arco reconhecido; lado exato da calçada/poste varia. Adaptar a área de pedestres, sem assumir que uma posição no tráfego seja utilizável.",
+      "alternativeSpotId": null,
+      "originalLocation": "Metrô de Paris",
+      "originalLocationId": "L03",
+      "originalPriority": "insp",
+      "title": "Retrato com o Arco",
+      "index": 67
+    },
+    {
+      "id": "28006828930634011",
+      "spotId": "arc",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Arco reconhecido; lado exato da calçada/poste varia. Adaptar a área de pedestres, sem assumir que uma posição no tráfego seja utilizável.",
+      "alternativeSpotId": null,
+      "originalLocation": "Arco do Triunfo e Champs-Élysées",
+      "originalLocationId": "L04",
+      "originalPriority": "must",
+      "title": "Retrato com o Arco",
+      "index": 72
+    },
+    {
+      "id": "4574037118866596",
+      "spotId": "arc",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Arco reconhecido; lado exato da calçada/poste varia. Adaptar a área de pedestres, sem assumir que uma posição no tráfego seja utilizável.",
+      "alternativeSpotId": null,
+      "originalLocation": "Arco do Triunfo e Champs-Élysées",
+      "originalLocationId": "L04",
+      "originalPriority": "insp",
+      "title": "Retrato com o Arco",
+      "index": 73
+    },
+    {
+      "id": "35465915813362437",
+      "spotId": "arc",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Arco reconhecido; lado exato da calçada/poste varia. Adaptar a área de pedestres, sem assumir que uma posição no tráfego seja utilizável.",
+      "alternativeSpotId": null,
+      "originalLocation": "Arco do Triunfo e Champs-Élysées",
+      "originalLocationId": "L04",
+      "originalPriority": "must",
+      "title": "Retrato com o Arco",
+      "index": 74
+    },
+    {
+      "id": "393290979984886865",
+      "spotId": "arc",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Arco reconhecido; lado exato da calçada/poste varia. Adaptar a área de pedestres, sem assumir que uma posição no tráfego seja utilizável.",
+      "alternativeSpotId": null,
+      "originalLocation": "Arco do Triunfo e Champs-Élysées",
+      "originalLocationId": "L04",
+      "originalPriority": "insp",
+      "title": "Retrato com o Arco",
+      "index": 75
+    },
+    {
+      "id": "22095854414708368",
+      "spotId": "arc",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Arco reconhecido; lado exato da calçada/poste varia. Adaptar a área de pedestres, sem assumir que uma posição no tráfego seja utilizável.",
+      "alternativeSpotId": null,
+      "originalLocation": "Arco do Triunfo e Champs-Élysées",
+      "originalLocationId": "L04",
+      "originalPriority": "must",
+      "title": "Retrato com o Arco",
+      "index": 76
+    },
+    {
+      "id": "34621490880978547",
+      "spotId": "arc",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Arco reconhecido; lado exato da calçada/poste varia. Adaptar a área de pedestres, sem assumir que uma posição no tráfego seja utilizável.",
+      "alternativeSpotId": null,
+      "originalLocation": "Arco do Triunfo e Champs-Élysées",
+      "originalLocationId": "L04",
+      "originalPriority": "insp",
+      "title": "Retrato com o Arco",
+      "index": 77
+    },
+    {
+      "id": "75505731277043649",
+      "spotId": "arc",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Arco reconhecido; lado exato da calçada/poste varia. Adaptar a área de pedestres, sem assumir que uma posição no tráfego seja utilizável.",
+      "alternativeSpotId": null,
+      "originalLocation": "Arco do Triunfo e Champs-Élysées",
+      "originalLocationId": "L04",
+      "originalPriority": "insp",
+      "title": "Retrato com o Arco",
+      "index": 78
+    },
+    {
+      "id": "103793966406710576",
+      "spotId": "arc",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Arco reconhecido; lado exato da calçada/poste varia. Adaptar a área de pedestres, sem assumir que uma posição no tráfego seja utilizável.",
+      "alternativeSpotId": null,
+      "originalLocation": "Arco do Triunfo e Champs-Élysées",
+      "originalLocationId": "L04",
+      "originalPriority": "must",
+      "title": "Retrato com o Arco",
+      "index": 79
+    },
+    {
+      "id": "pa-05",
+      "spotId": "arc",
+      "precision": "identified",
+      "feasibility": "adapt",
+      "note": "Ref é longa exposição na hora azul; na passagem prevista será dia. Manter composição ou cortar, sem retorno noturno ao Arco.",
+      "alternativeSpotId": null,
+      "originalLocation": "Arco do Triunfo e Champs-Élysées",
+      "originalLocationId": "L04",
+      "originalPriority": "mine",
+      "title": "Arco do Triunfo na hora azul com rastros de luz dos carros, longa exposição, sem pessoa",
+      "index": 102
+    },
+    {
+      "id": "pa-09",
+      "spotId": "arc",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Arco reconhecido; lado exato da calçada/poste varia. Adaptar a área de pedestres, sem assumir que uma posição no tráfego seja utilizável.",
+      "alternativeSpotId": null,
+      "originalLocation": "Arco do Triunfo e Champs-Élysées",
+      "originalLocationId": "L04",
+      "originalPriority": "mine",
+      "title": "Homem de sobretudo encostado num poste antigo com o Arco do Triunfo atrás, retrato de corpo inteiro",
+      "index": 106
+    },
+    {
+      "id": "10977592836954831",
+      "spotId": "camoens",
+      "precision": "probable",
+      "feasibility": "optional",
+      "note": "Escadaria com Torre entre fachadas: candidata Avenue de Camoëns. Não é metrô; comparar corrimão e fachadas antes de confirmar.",
+      "alternativeSpotId": "trocadero",
+      "originalLocation": "Metrô de Paris",
+      "originalLocationId": "L03",
+      "originalPriority": "must",
+      "title": "Jornal na escadaria",
+      "index": 68
+    },
+    {
+      "id": "326862885480187376",
+      "spotId": "trocadero",
+      "precision": "identified",
+      "feasibility": "adapt",
+      "note": "Vista frontal da Torre a partir de Chaillot. Ref 87 estava no topo da Torre, mas a própria Torre inteira aparece. Luz do fim do dia muda para tarde na rota proposta.",
+      "alternativeSpotId": null,
+      "originalLocation": "Metrô de Paris",
+      "originalLocationId": "L03",
+      "originalPriority": "must",
+      "title": "Retrato com a Torre de frente",
+      "index": 70
+    },
+    {
+      "id": "233131718206087023",
+      "spotId": "trocadero",
+      "precision": "identified",
+      "feasibility": "adapt",
+      "note": "Vista frontal da Torre a partir de Chaillot. Ref 87 estava no topo da Torre, mas a própria Torre inteira aparece. Luz do fim do dia muda para tarde na rota proposta.",
+      "alternativeSpotId": null,
+      "originalLocation": "Trocadéro",
+      "originalLocationId": "L05",
+      "originalPriority": "must",
+      "title": "Retrato com a Torre de frente",
+      "index": 80
+    },
+    {
+      "id": "35465915813256068",
+      "spotId": "trocadero",
+      "precision": "identified",
+      "feasibility": "adapt",
+      "note": "Vista frontal da Torre a partir de Chaillot. Ref 87 estava no topo da Torre, mas a própria Torre inteira aparece. Luz do fim do dia muda para tarde na rota proposta.",
+      "alternativeSpotId": null,
+      "originalLocation": "Trocadéro",
+      "originalLocationId": "L05",
+      "originalPriority": "must",
+      "title": "Retrato com a Torre de frente",
+      "index": 81
+    },
+    {
+      "id": "87890630223665494",
+      "spotId": "trocadero",
+      "precision": "identified",
+      "feasibility": "adapt",
+      "note": "Vista frontal da Torre a partir de Chaillot. Ref 87 estava no topo da Torre, mas a própria Torre inteira aparece. Luz do fim do dia muda para tarde na rota proposta.",
+      "alternativeSpotId": null,
+      "originalLocation": "Topo da Torre Eiffel",
+      "originalLocationId": "L07",
+      "originalPriority": "insp",
+      "title": "Retrato com a Torre de frente",
+      "index": 87
+    },
+    {
+      "id": "pa-01",
+      "spotId": "trocadero",
+      "precision": "identified",
+      "feasibility": "adapt",
+      "note": "Vista frontal da Torre a partir de Chaillot. Ref 87 estava no topo da Torre, mas a própria Torre inteira aparece. Luz do fim do dia muda para tarde na rota proposta.",
+      "alternativeSpotId": null,
+      "originalLocation": "Trocadéro",
+      "originalLocationId": "L05",
+      "originalPriority": "mine",
+      "title": "Homem sentado na mureta do Trocadéro olhando a Torre Eiffel no pôr do sol, de perfil, silhueta",
+      "index": 98
+    },
+    {
+      "id": "7599893117984320",
+      "spotId": null,
+      "precision": "unknown",
+      "feasibility": "unlocated",
+      "note": "Rua com vista da Torre, sem identificação suficiente da esquina. Manter como linguagem de caminhada.",
+      "alternativeSpotId": "universite",
+      "originalLocation": "Metrô de Paris",
+      "originalLocationId": "L03",
+      "originalPriority": "insp",
+      "title": "Referência com localização pendente",
+      "index": 71
+    },
+    {
+      "id": "317292736265324963",
+      "spotId": "trocadero-stairs",
+      "precision": "probable",
+      "feasibility": "adapt",
+      "note": "Parede lateral e posição da Torre sugerem escadaria de Chaillot. Não há evidência para cravar qual lance; luz e multidão serão diferentes.",
+      "alternativeSpotId": null,
+      "originalLocation": "Trocadéro",
+      "originalLocationId": "L05",
+      "originalPriority": "must",
+      "title": "Retrato na parede da escadaria",
+      "index": 83
+    },
+    {
+      "id": "pa-08",
+      "spotId": "trocadero-stairs",
+      "precision": "probable",
+      "feasibility": "adapt",
+      "note": "Parede lateral e posição da Torre sugerem escadaria de Chaillot. Não há evidência para cravar qual lance; luz e multidão serão diferentes.",
+      "alternativeSpotId": null,
+      "originalLocation": "Trocadéro",
+      "originalLocationId": "L05",
+      "originalPriority": "mine",
+      "title": "Homem de terno encostado na parede da escadaria do Trocadéro com sol duro e a Torre Eiffel à esquerda",
+      "index": 105
+    },
+    {
+      "id": "6544361955469115",
+      "spotId": "tower-base",
+      "precision": "identified",
+      "feasibility": "optional",
+      "note": "Vista muito próxima da estrutura, no entorno da base/Champ de Mars. Não corresponde ao Trocadéro. Encaixar apenas durante a visita ao entorno.",
+      "alternativeSpotId": null,
+      "originalLocation": "Trocadéro",
+      "originalLocationId": "L05",
+      "originalPriority": "insp",
+      "title": "Retrato perto da base da Torre",
+      "index": 82
+    },
+    {
+      "id": "6544361955469136",
+      "spotId": "tower-base",
+      "precision": "identified",
+      "feasibility": "optional",
+      "note": "Vista muito próxima da estrutura, no entorno da base/Champ de Mars. Não corresponde ao Trocadéro. Encaixar apenas durante a visita ao entorno.",
+      "alternativeSpotId": null,
+      "originalLocation": "Trocadéro",
+      "originalLocationId": "L05",
+      "originalPriority": "insp",
+      "title": "Retrato perto da base da Torre",
+      "index": 84
+    },
+    {
+      "id": "228065168602072378",
+      "spotId": null,
+      "precision": "unknown",
+      "feasibility": "unlocated",
+      "note": "Portão de ferro enquadrando a Torre. Pode ser acesso particular; endereço e autorização não comprovados. Não tentar entrar para copiar.",
+      "alternativeSpotId": "trocadero",
+      "originalLocation": "Trocadéro",
+      "originalLocationId": "L05",
+      "originalPriority": "must",
+      "title": "Referência com localização pendente",
+      "index": 85
+    },
+    {
+      "id": "213780313557320104",
+      "spotId": "iena",
+      "precision": "identified",
+      "feasibility": "adapt",
+      "note": "Torre vista na travessia da Pont d’Iéna. Fazer na área de pedestres; não depender do centro de uma faixa para veículos.",
+      "alternativeSpotId": null,
+      "originalLocation": "Jardins e Pont d'Iéna",
+      "originalLocationId": "L06",
+      "originalPriority": "must",
+      "title": "Caminhada com a Torre ao fundo",
+      "index": 86
+    },
+    {
+      "id": "pa-02",
+      "spotId": "iena",
+      "precision": "identified",
+      "feasibility": "adapt",
+      "note": "Torre vista na travessia da Pont d’Iéna. Fazer na área de pedestres; não depender do centro de uma faixa para veículos.",
+      "alternativeSpotId": null,
+      "originalLocation": "Jardins e Pont d'Iéna",
+      "originalLocationId": "L06",
+      "originalPriority": "mine",
+      "title": "Mulher de sobretudo andando no centro da Pont d'Iéna com a Torre Eiffel enquadrada, câmera rente ao chão",
+      "index": 99
+    },
+    {
+      "id": "62417144829297228",
+      "spotId": "quai",
+      "precision": "alternative",
+      "feasibility": "adapt",
+      "note": "Vista noturna da Torre e do rio/entorno. Margem exata não comprovada. O quai proposto é alternativa pública próxima; a ref 90 nem identifica um bistrô.",
+      "alternativeSpotId": null,
+      "originalLocation": "Torre à noite / Champ de Mars",
+      "originalLocationId": "L08",
+      "originalPriority": "insp",
+      "title": "Torre iluminada à noite",
+      "index": 88
+    },
+    {
+      "id": "637470522299179768",
+      "spotId": "quai",
+      "precision": "alternative",
+      "feasibility": "adapt",
+      "note": "Vista noturna da Torre e do rio/entorno. Margem exata não comprovada. O quai proposto é alternativa pública próxima; a ref 90 nem identifica um bistrô.",
+      "alternativeSpotId": null,
+      "originalLocation": "Torre à noite / Champ de Mars",
+      "originalLocationId": "L08",
+      "originalPriority": "insp",
+      "title": "Torre iluminada à noite",
+      "index": 89
+    },
+    {
+      "id": "774408098478042865",
+      "spotId": "quai",
+      "precision": "alternative",
+      "feasibility": "adapt",
+      "note": "Vista noturna da Torre e do rio/entorno. Margem exata não comprovada. O quai proposto é alternativa pública próxima; a ref 90 nem identifica um bistrô.",
+      "alternativeSpotId": null,
+      "originalLocation": "Jantar em bistrô",
+      "originalLocationId": "L09",
+      "originalPriority": "insp",
+      "title": "Torre iluminada à noite",
+      "index": 90
+    },
+    {
+      "id": "405253666488456119",
+      "spotId": "bir-hakeim",
+      "precision": "identified",
+      "feasibility": "adapt",
+      "note": "Pilares e cobertura sob o metrô reconhecem Bir-Hakeim. Fotos diurnas viram noturnas; pilar exato é estimado.",
+      "alternativeSpotId": null,
+      "originalLocation": "Bir-Hakeim à noite",
+      "originalLocationId": "L10",
+      "originalPriority": "must",
+      "title": "Pilares e perspectiva da ponte",
+      "index": 91
+    },
+    {
+      "id": "13299761395701665",
+      "spotId": "bir-hakeim",
+      "precision": "identified",
+      "feasibility": "adapt",
+      "note": "Pilares e cobertura sob o metrô reconhecem Bir-Hakeim. Fotos diurnas viram noturnas; pilar exato é estimado.",
+      "alternativeSpotId": null,
+      "originalLocation": "Bir-Hakeim à noite",
+      "originalLocationId": "L10",
+      "originalPriority": "must",
+      "title": "Pilares e perspectiva da ponte",
+      "index": 92
+    },
+    {
+      "id": "52776626856561919",
+      "spotId": "bir-hakeim",
+      "precision": "identified",
+      "feasibility": "adapt",
+      "note": "Pilares e cobertura sob o metrô reconhecem Bir-Hakeim. Fotos diurnas viram noturnas; pilar exato é estimado.",
+      "alternativeSpotId": null,
+      "originalLocation": "Bir-Hakeim à noite",
+      "originalLocationId": "L10",
+      "originalPriority": "must",
+      "title": "Pilares e perspectiva da ponte",
+      "index": 93
+    },
+    {
+      "id": "115404809196313429",
+      "spotId": "bir-hakeim",
+      "precision": "identified",
+      "feasibility": "adapt",
+      "note": "Pilares e cobertura sob o metrô reconhecem Bir-Hakeim. Fotos diurnas viram noturnas; pilar exato é estimado.",
+      "alternativeSpotId": null,
+      "originalLocation": "Bir-Hakeim à noite",
+      "originalLocationId": "L10",
+      "originalPriority": "must",
+      "title": "Pilares e perspectiva da ponte",
+      "index": 96
+    },
+    {
+      "id": "pa-10",
+      "spotId": "bir-hakeim",
+      "precision": "identified",
+      "feasibility": "adapt",
+      "note": "Pilares e cobertura sob o metrô reconhecem Bir-Hakeim. Fotos diurnas viram noturnas; pilar exato é estimado.",
+      "alternativeSpotId": null,
+      "originalLocation": "Bir-Hakeim à noite",
+      "originalLocationId": "L10",
+      "originalPriority": "mine",
+      "title": "Homem de sobretudo preto encostado num pilar da ponte Bir-Hakeim com a Torre Eiffel no fundo, dia chuvoso (no roteiro é à noite)",
+      "index": 107
+    },
+    {
+      "id": "686376799480318301",
+      "spotId": null,
+      "precision": "identified",
+      "feasibility": "blocked",
+      "note": "Tower Bridge, em Londres: torres e suspensão azuis reconhecíveis. Não existe esse enquadramento em Bir-Hakeim.",
+      "alternativeSpotId": "bir-hakeim",
+      "originalLocation": "Bir-Hakeim à noite",
+      "originalLocationId": "L10",
+      "originalPriority": "insp",
+      "title": "Referência com localização pendente",
+      "index": 94
+    },
+    {
+      "id": "563018699706663",
+      "spotId": null,
+      "precision": "identified",
+      "feasibility": "blocked",
+      "note": "Tower Bridge, em Londres: torres e suspensão azuis reconhecíveis. Não existe esse enquadramento em Bir-Hakeim.",
+      "alternativeSpotId": "bir-hakeim",
+      "originalLocation": "Bir-Hakeim à noite",
+      "originalLocationId": "L10",
+      "originalPriority": "must",
+      "title": "Referência com localização pendente",
+      "index": 95
+    },
+    {
+      "id": "jp-23",
+      "spotId": null,
+      "precision": "unknown",
+      "feasibility": "blocked",
+      "note": "Retrato em sacada privada com vista da Torre. Não há imóvel, hospedagem nem acesso confirmado; não pode ser tratado como foto de rua.",
+      "alternativeSpotId": "universite",
+      "originalLocation": "Torre à noite / Champ de Mars",
+      "originalLocationId": "L08",
+      "originalPriority": "mine",
+      "title": "Imagem gerada por IA de Paris (está na pasta do Japão): homem de casaco preto numa sacada com a Torre Eiffel acesa no pôr do sol",
+      "index": 97
+    },
+    {
+      "id": "pa-03",
+      "spotId": "richelieu",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Arco escuro e Pirâmide alinhada identificam Passage Richelieu. Conferir abertura; sem acesso, usar o pátio como alternativa.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "mine",
+      "title": "Silhueta de homem andando no arco da passagem Richelieu com a Pirâmide do Louvre enquadrada no fundo",
+      "index": 100
+    },
+    {
+      "id": "pa-04",
+      "spotId": "richelieu",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Arco escuro e Pirâmide alinhada identificam Passage Richelieu. Conferir abertura; sem acesso, usar o pátio como alternativa.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "mine",
+      "title": "Casal em silhueta (ele levantando ela) no arco da passagem Richelieu com a Pirâmide do Louvre atrás",
+      "index": 101
+    },
+    {
+      "id": "pa-12",
+      "spotId": "richelieu",
+      "precision": "identified",
+      "feasibility": "fits",
+      "note": "Arco escuro e Pirâmide alinhada identificam Passage Richelieu. Conferir abertura; sem acesso, usar o pátio como alternativa.",
+      "alternativeSpotId": null,
+      "originalLocation": "Louvre e Pirâmide",
+      "originalLocationId": "L01",
+      "originalPriority": "mine",
+      "title": "Casal em silhueta frente a frente no arco da passagem Richelieu com a Pirâmide do Louvre enquadrada",
+      "index": 108
+    },
+    {
+      "id": "pa-13",
+      "spotId": "universite",
+      "precision": "probable",
+      "feasibility": "adapt",
+      "note": "Rua ao pé da Torre com fachada à esquerda. Trecho final da rue de l’Université é candidato próximo, não confirmação da rua original. A ref de dia vira noite.",
+      "alternativeSpotId": null,
+      "originalLocation": "Torre à noite / Champ de Mars",
+      "originalLocationId": "L08",
+      "originalPriority": "mine",
+      "title": "Retrato de homem de sobretudo andando na rua de paralelepípedo com a base da Torre Eiffel logo atrás, de dia (perto do Champ de Mars)",
+      "index": 109
+    }
+  ],
+  "route": [
+    {
+      "id": "r1",
+      "time": "13h00–13h45",
+      "title": "Almoço no Marly",
+      "spots": [
+        "marly"
+      ],
+      "next": "2–5 min a pé até a Pirâmide",
+      "mode": "walking",
+      "note": "Horário herdado do roteiro; mesa/reserva ainda precisam de confirmação. Fazer café, mãos e retrato enquanto espera."
+    },
+    {
+      "id": "r2",
+      "time": "13h45–14h10",
+      "title": "Pátio + Passage Richelieu",
+      "spots": [
+        "louvre-main",
+        "louvre-small",
+        "richelieu"
+      ],
+      "next": "5–10 min a pé até Palais-Royal",
+      "mode": "walking",
+      "note": "Fotografar o pátio e sair pela passagem em direção ao Palais-Royal, se aberta. Não voltar ao Louvre depois."
+    },
+    {
+      "id": "r3",
+      "time": "14h20–14h30",
+      "title": "Palais-Royal compacto",
+      "spots": [
+        "palais-buren",
+        "palais-gallery"
+      ],
+      "next": "Linha 1 → Charles de Gaulle–Étoile · 25–35 min com caminhada e espera",
+      "mode": "transit",
+      "note": "Escolher colunas de Buren OU galeria se estiver apertado. Jardim só com sobra; sair para o metrô às 14h30.",
+      "captureSpots": [
+        "metro"
+      ]
+    },
+    {
+      "id": "r4",
+      "time": "15h05–15h20",
+      "title": "Arco pela calçada",
+      "spots": [
+        "arc"
+      ],
+      "next": "Linha 6 → Trocadéro · 15–20 min com acesso e espera",
+      "mode": "transit",
+      "note": "Sem subida no monumento. Uma composição + uma caminhada. Se a chegada atrasar, encurtar ou cortar este bloco para proteger a Torre."
+    },
+    {
+      "id": "r5",
+      "time": "15h40–15h55",
+      "title": "Trocadéro: parapeito + escada",
+      "spots": [
+        "trocadero",
+        "trocadero-stairs"
+      ],
+      "next": "20 min reservados a pé via jardins e Pont d’Iéna",
+      "mode": "walking",
+      "note": "No máximo duas composições. Não esperar pôr do sol aqui: sair às 15h55."
+    },
+    {
+      "id": "r6",
+      "time": "15h55–16h15",
+      "title": "Pont d’Iéna · travessia",
+      "spots": [
+        "iena"
+      ],
+      "next": "Ir diretamente para a entrada indicada no ingresso",
+      "mode": "walking",
+      "note": "Take de 5s durante a travessia. Se houver atraso, apenas caminhar para a entrada."
+    },
+    {
+      "id": "r7",
+      "time": "16h15 / 16h40",
+      "title": "Segurança + ingresso da Torre",
+      "spots": [
+        "tower"
+      ],
+      "next": "Visita até o topo: reservar cerca de 2h30; saída real variável",
+      "mode": "walking",
+      "note": "16h15 é meta de chegada à segurança; 16h40 é o ingresso confirmado pelo Iagor. Não é garantia de estar no topo às 16h40.",
+      "fixed": true
+    },
+    {
+      "id": "r8",
+      "time": "Após sair · ~19h10",
+      "title": "Rua + Sena, seguindo para oeste",
+      "spots": [
+        "universite",
+        "quai"
+      ],
+      "next": "10–15 min a pé do trecho do quai até Bir-Hakeim",
+      "mode": "walking",
+      "note": "Rue de l’Université é extra e sai primeiro se houver atraso. Escolher a próxima piscada que couber após a saída real; não prometer 18h ou 19h."
+    },
+    {
+      "id": "r9",
+      "time": "~20h15–20h35",
+      "title": "Bir-Hakeim em dois enquadramentos",
+      "spots": [
+        "bir-hakeim"
+      ],
+      "next": "Jantar depois das fotos na mesma região; restaurante e retorno ao hotel a definir",
+      "mode": null,
+      "note": "Eixo dos pilares + lateral com a Torre. Depois, jantar na região por volta de 20h45, sem retornar ao Louvre/Arco. Iagor confirmou que o jantar pode ser após as fotos; horário depende da saída real da Torre."
+    }
+  ],
+  "videos": [
+    {
+      "id": "P01",
+      "title": "nights like these.",
+      "type": "Edit lifestyle noturno",
+      "duration": "12–15s",
+      "hook": "Torre iluminada já no primeiro plano; texto discreto “nights like these.”",
+      "references": [
+        "DePJEtbogso"
+      ],
+      "audio": "Usar o áudio salvo da ref no Instagram; identificação da faixa ainda não confirmada.",
+      "edit": "4 a 5 cortes de 2–3s; contraste das luzes quentes com a noite. Câmera estável e ações naturais.",
+      "adaptation": "A ref tem conversível e casal. Não há carro reservado: adaptar o movimento para caminhada. Se fizerem em casal, usar interação natural; funciona solo também.",
+      "takes": [
+        {
+          "id": "P01-1",
+          "spotId": "quai",
+          "text": "Iagor de perfil com a Torre iluminada ao fundo; começar com a paisagem já visível.",
+          "seconds": 8
+        },
+        {
+          "id": "P01-2",
+          "spotId": "quai",
+          "text": "Plano aberto de costas olhando a Torre; versão solo e, se quiserem, em casal.",
+          "seconds": 10
+        },
+        {
+          "id": "P01-3",
+          "spotId": "bir-hakeim",
+          "text": "Pessoa/casal caminhando sob os pilares; câmera acompanha sem encenar conversa.",
+          "seconds": 8
+        },
+        {
+          "id": "P01-4",
+          "spotId": "bir-hakeim",
+          "text": "Plano lateral parado, pessoa junto ao pilar e Torre no fundo; segurar final.",
+          "seconds": 10
+        }
+      ],
+      "displayTitle": "Noites em Paris",
+      "summary": "Caminhada, luzes e Torre ao fundo.",
+      "coverIds": [
+        "62417144829297228"
+      ],
+      "displayDuration": "12–15s",
+      "placesLabel": "Sena + Bir-Hakeim",
+      "displayType": "Edit"
+    },
+    {
+      "id": "P02",
+      "title": "PARIS · um dia em movimento",
+      "type": "Edit cinematográfico",
+      "duration": "10–15s",
+      "hook": "“PARIS” sobre o primeiro take. Evitar “5 days in Paris”: a viagem tem outra duração.",
+      "references": [
+        "DZNtT89st9u"
+      ],
+      "audio": "Ouvir a ref de @paco.eckstein e escolher o mesmo trecho, conforme disponibilidade na conta.",
+      "edit": "Alternar retrato e arquitetura; 0,5–1,5s por corte. Texto atrás do sujeito é opcional na edição, não exige take extra.",
+      "adaptation": "Aproveita a ref salva pelo Daniel. Não acrescentar locações só para preencher a montagem; usar o que já sai da rota.",
+      "takes": [
+        {
+          "id": "P02-1",
+          "spotId": "marly",
+          "text": "Detalhe da xícara/mão e retrato lateral no terraço.",
+          "seconds": 6
+        },
+        {
+          "id": "P02-2",
+          "spotId": "louvre-main",
+          "text": "Caminhada com a Pirâmide de fundo; espaço acima para o título.",
+          "seconds": 8
+        },
+        {
+          "id": "P02-3",
+          "spotId": "richelieu",
+          "text": "Silhueta cruzando o arco em direção à Pirâmide; alternativa no pátio se fechado.",
+          "seconds": 8
+        },
+        {
+          "id": "P02-4",
+          "spotId": "palais-buren",
+          "text": "Plano baixo da caminhada com colunas em primeiro plano.",
+          "seconds": 6
+        },
+        {
+          "id": "P02-5",
+          "spotId": "metro",
+          "text": "Pessoa parada com trem passando, durante o trajeto.",
+          "seconds": 6
+        },
+        {
+          "id": "P02-6",
+          "spotId": "arc",
+          "text": "Caminhada de corpo inteiro com o Arco de fundo, pela calçada.",
+          "seconds": 6
+        },
+        {
+          "id": "P02-7",
+          "spotId": "trocadero",
+          "text": "Revelação da Torre: começar no ombro e abrir para a paisagem.",
+          "seconds": 8
+        },
+        {
+          "id": "P02-8",
+          "spotId": "tower",
+          "text": "Vista do topo e um detalhe da experiência de subir.",
+          "seconds": 8
+        },
+        {
+          "id": "P02-9",
+          "spotId": "quai",
+          "text": "Torre à noite + barco, apenas se aparecer; gravar versão sem barco também.",
+          "seconds": 10
+        }
+      ],
+      "displayTitle": "Um dia em Paris",
+      "summary": "Cortes de café, ruas, monumentos e noite.",
+      "coverIds": [
+        "ig-DZNtT89st9u"
+      ],
+      "displayDuration": "10–15s",
+      "placesLabel": "Do Louvre à Torre",
+      "displayType": "Edit"
+    },
+    {
+      "id": "P03",
+      "title": "Paris no filme",
+      "type": "Visor da câmera → fotos",
+      "duration": "10–20s ou trecho do recap da viagem",
+      "hook": "Mão levanta a câmera e aproxima o visor; o clique revela a foto.",
+      "references": [
+        "DduC32ToYTE",
+        "DbH4KhdxKr7"
+      ],
+      "audio": "Áudio da ref escolhida + clique de câmera; nome da música não confirmado.",
+      "edit": "Pares de vídeo do visor e foto do MESMO enquadramento. Corte no clique; segurar cada foto perto de 1s.",
+      "adaptation": "Precisa de câmera e digitalização se o filme for real. Se usarem foto digital com efeito analógico, apresentar como estética, sem afirmar que foi revelada em filme.",
+      "takes": [
+        {
+          "id": "P03-1",
+          "spotId": "marly",
+          "text": "Detalhe das mãos abrindo/segurando a câmera; não precisa fingir uma compra.",
+          "seconds": 6
+        },
+        {
+          "id": "P03-2",
+          "spotId": "louvre-main",
+          "text": "Vídeo aproximando o visor + foto no mesmo eixo da Pirâmide.",
+          "seconds": 8
+        },
+        {
+          "id": "P03-3",
+          "spotId": "trocadero",
+          "text": "Vídeo do visor + foto com a Torre inteira no mesmo eixo.",
+          "seconds": 8
+        },
+        {
+          "id": "P03-4",
+          "spotId": "bir-hakeim",
+          "text": "Vídeo do visor + foto entre os pilares; guardar o par junto.",
+          "seconds": 8
+        }
+      ],
+      "displayTitle": "Paris no filme",
+      "summary": "O visor da câmera vira uma sequência de fotos.",
+      "coverIds": [
+        "pa-03",
+        "pa-10"
+      ],
+      "displayDuration": "10–20s",
+      "placesLabel": "Louvre · Trocadéro · Bir-Hakeim",
+      "displayType": "Trend de fotos"
+    }
+  ],
+  "references": [
+    {
+      "id": "DePJEtbogso",
+      "title": "nights like these. · Paris",
+      "origin": "Iagor",
+      "kind": "Edit noturno",
+      "url": "https://www.instagram.com/p/DePJEtbogso/",
+      "summary": "Conversível, Torre e interações em planos calmos. Modelar atmosfera e duração dos planos; o carro é uma produção extra."
+    },
+    {
+      "id": "DZNtT89st9u",
+      "title": "PARIS · @paco.eckstein",
+      "origin": "Daniel",
+      "kind": "Edit cinematográfico",
+      "url": "https://www.instagram.com/reel/DZNtT89st9u/",
+      "thumbnail": "ig-DZNtT89st9u",
+      "summary": "Tipografia vermelha, arquitetura, caminhada e Torre iluminada. Ref já descrita no site do Daniel."
+    },
+    {
+      "id": "DduC32ToYTE",
+      "title": "Visor → memórias da viagem",
+      "origin": "Iagor",
+      "kind": "Trend de câmera",
+      "url": "https://www.instagram.com/p/DduC32ToYTE/",
+      "summary": "Aproximação do visor abre montagem de fotos. Adaptável a Paris e ao Japão."
+    },
+    {
+      "id": "DbH4KhdxKr7",
+      "title": "Como a viagem fica no filme",
+      "origin": "Iagor",
+      "kind": "Vídeo + foto correspondente",
+      "url": "https://www.instagram.com/p/DbH4KhdxKr7/",
+      "summary": "Repete visor e foto revelada em cada local; exige guardar os pares com o mesmo enquadramento."
+    },
+    {
+      "id": "DdtGdXmTQj9",
+      "title": "Experiência de criar perfume",
+      "origin": "Iagor",
+      "kind": "Microvlog narrado",
+      "url": "https://www.instagram.com/p/DdtGdXmTQj9/",
+      "summary": "Processo em closes e narração posterior; foi usado como linguagem para cerimônia do chá. Local e dia ainda serão revisados."
+    },
+    {
+      "id": "DYz5ltfBU_c",
+      "title": "Visita à loja de eletrônicos",
+      "origin": "Iagor",
+      "kind": "Vlog falado",
+      "url": "https://www.instagram.com/p/DYz5ltfBU_c/",
+      "summary": "Produtos curiosos, reação e compra; adaptação anterior sugeriu Don Quijote. Revisar o encaixe no dia de Tóquio."
+    },
+    {
+      "id": "DdU_IlTozMU",
+      "title": "Tokyo Drift",
+      "origin": "Iagor",
+      "kind": "Edit de carros",
+      "url": "https://www.instagram.com/p/DdU_IlTozMU/",
+      "summary": "Cortes no beat e carros à noite; depende das condições do passeio de 31/10."
+    },
+    {
+      "id": "DeC1mDNAjts",
+      "title": "Japão em cortes curtos",
+      "origin": "Iagor + Daniel",
+      "kind": "Micro edit",
+      "url": "https://www.instagram.com/p/DeC1mDNAjts/",
+      "thumbnail": "ig-DeC1mDNAjts",
+      "summary": "Planos baixos e estáveis, ritmo rápido. Take a take será revisado junto aos dias do Japão."
+    },
+    {
+      "id": "DbTWhP9PLNu",
+      "title": "the next station is…",
+      "origin": "Iagor",
+      "kind": "Recap da viagem",
+      "url": "https://www.instagram.com/p/DbTWhP9PLNu/",
+      "summary": "Anúncio de trem e cartelas das cidades. Depende de material de vários dias; ainda sem rota própria."
+    },
+    {
+      "id": "DdmFiRSNMKF",
+      "title": "@_stievoo · ref visual de vídeo, serviria pra intro do vlog talvez, gosto da música",
+      "origin": "Daniel",
+      "kind": "Abertura do vlog",
+      "url": "https://www.instagram.com/reel/DdmFiRSNMKF/",
+      "thumbnail": "ig-DdmFiRSNMKF",
+      "summary": "Horizontal 4:3, cortes rápidos (~40 em 29s) de detalhes do Japão: gatos maneki-neko de Gotokuji, ritual de purificação no templo, portões vermelhos, cartas na mão, Castelo de Osaka e Dotonbori à noite; câmera parada/lenta, cor natural levemente quente, sem texto na tela."
+    },
+    {
+      "id": "DbwWYQzsccr",
+      "title": "@stillchris · quero gravar para o meu perfil pessoal (perfil do Daniel, @danfilms)",
+      "origin": "Daniel",
+      "kind": "Perfil do Daniel",
+      "url": "https://www.instagram.com/reel/DbwWYQzsccr/",
+      "thumbnail": "ig-DbwWYQzsccr",
+      "summary": "Selfie-vlog horizontal com câmera na mão: abre falando pra câmera no meio do cruzamento de Shibuya, depois montagem rápida de momentos (Skyline roxo, beco de Omoide Yokocho com guarda-chuva, cerejeiras, cervos de Nara, karaokê, amigos acenando em Miyajima); energia alta, cor crua de celular/vlog."
+    },
+    {
+      "id": "DazuXjtMBZT",
+      "title": "@whereismanuel · quero fazer esse reel com o Iagor",
+      "origin": "Daniel",
+      "kind": "Reel com Iagor",
+      "url": "https://www.instagram.com/reel/DazuXjtMBZT/",
+      "thumbnail": "ig-DazuXjtMBZT",
+      "summary": "Gancho de print de iMessage em tela preta ('Hey, are you free tonight?' / 'No, I'm in Japan.') que corta pra sequência vertical de fotos/planos estáticos tipo foto (torii de Miyajima com cervo, túnel de torii de Fushimi Inari, bambuzal de Arashiyama, cerejeiras); cada imagem dura ~1s no beat."
+    },
+    {
+      "id": "Dc_iziuM-uX",
+      "title": "@khatira.valiyeva · outra ref que serve pra intro do vlog",
+      "origin": "Daniel",
+      "kind": "Abertura do vlog",
+      "url": "https://www.instagram.com/reel/Dc_iziuM-uX/",
+      "thumbnail": "ig-Dc_iziuM-uX",
+      "summary": "Abre com janela do avião à noite e texto serifado vermelho 'The next station is...', seguido de cartelas de cidade em vermelho sobre o plano (KYOTO 京都, OSAKA 大阪); mistura colagem/janelas sobrepostas, comida, trem verde, loja de discos e Pikachu, planos médios da protagonista de costas, cor quente estilo filme."
+    },
+    {
+      "id": "DPI3yjjjJEl",
+      "title": "@whereismanuel · outra ref para o vlog",
+      "origin": "Daniel",
+      "kind": "Linguagem de vlog",
+      "url": "https://www.instagram.com/reel/DPI3yjjjJEl/",
+      "thumbnail": "ig-DPI3yjjjJEl",
+      "summary": "Vertical com letterbox cinemascope (faixa 2.39 no meio da tela 9:16) e título 'JAPAN' sobre o primeiro plano; poucos cortes, planos longos e lentos de izakaya com cozinheiro, ruas com neon, macacos de neve no onsen e lanternas com cerejeiras; tom calmo e contemplativo."
+    },
+    {
+      "id": "DT0VViek82E",
+      "title": "@bxnmxclean · ref pro vlog",
+      "origin": "Daniel",
+      "kind": "Linguagem de vlog",
+      "url": "https://www.instagram.com/reel/DT0VViek82E/",
+      "thumbnail": "ig-DT0VViek82E",
+      "summary": "Cartela de abertura minimalista 'A COLLECTION FROM TOKYO JAPAN' sobre beco escuro, depois ritmo muito rápido (~54 cortes em 17s) entre neon de Shibuya/Shinjuku, rua de Kyoto com pagoda Yasaka e o personagem andando de frente pra câmera em tracking; grade escura teal/laranja e lente grande-angular."
+    },
+    {
+      "id": "Da0JKCVTVRf",
+      "title": "@lennymade_ · ref pro vlog",
+      "origin": "Daniel",
+      "kind": "Linguagem de vlog",
+      "url": "https://www.instagram.com/reel/Da0JKCVTVRf/",
+      "thumbnail": "ig-Da0JKCVTVRf",
+      "summary": "Título 'JAPAN' em outline com 'TOKYO OSAKA KYOTO' em vermelho, texto atrás da pessoa; cortes no beat com whip/motion blur em táxi e carros, metrô por dentro, encontro de carros tunados em Daikoku (Integra verde, Lamborghini no cruzamento) e placa de estrada; grade fria lavada 'liquid glass'."
+    },
+    {
+      "id": "DbKH2PzyWL7",
+      "title": "@calvin.uyy · minha ref preferida para a intro do vlog",
+      "origin": "Daniel",
+      "kind": "Abertura do vlog",
+      "url": "https://www.instagram.com/reel/DbKH2PzyWL7/",
+      "thumbnail": "ig-DbKH2PzyWL7",
+      "summary": "Edição cinética muito rápida (~60 cortes em 15s) com tipografia vermelha grande aparecendo palavra por palavra ('IS...', 'NAPPA' sobre o portão de Kabukicho), molduras vermelhas encolhendo o plano, split-screen e flashes brancos de transição; planos de Skyline azul, prédio Namba Marui, Fuji, mar de Kamakura e torii."
+    },
+    {
+      "id": "DdrSYoAygn1",
+      "title": "@willieravenna · ref muito boa para o vlog também",
+      "origin": "Daniel",
+      "kind": "Linguagem de vlog",
+      "url": "https://www.instagram.com/reel/DdrSYoAygn1/",
+      "thumbnail": "ig-DdrSYoAygn1",
+      "summary": "Montagem com humor e cara de vlog: close exagerado comendo com hashi, Fuji rosa refletido no lago, selfie falando em izakaya com lanternas, ramen Ichiran visto de cima, carros esportivos passando com motion blur, plano P&B de templo e legenda japonesa 'ありがとうございます' numa cena de rua; mistura de lentes e cores."
+    },
+    {
+      "id": "DU0Cj-6Elpz",
+      "title": "@1saeng_film · gosto muito dessa ref também",
+      "origin": "Daniel",
+      "kind": "Linguagem de vlog",
+      "url": "https://www.instagram.com/reel/DU0Cj-6Elpz/",
+      "thumbnail": "ig-DU0Cj-6Elpz",
+      "summary": "Ritmo rápido de cidade à noite: portão de Kabukicho, skyline com Tokyo Tower ao entardecer, vista aérea de cima do cruzamento de Shibuya, kart na rua, condutor de trem falando no microfone, yakitori na grelha e letreiros em contra-plongée; cor escura neutra, sem texto, sensação de 'ritmo da cidade'."
+    },
+    {
+      "id": "DaIBwOAoqva",
+      "title": "@radmirgolban · ref muito boa também",
+      "origin": "Daniel",
+      "kind": "Linguagem de vlog",
+      "url": "https://www.instagram.com/reel/DaIBwOAoqva/",
+      "thumbnail": "ig-DaIBwOAoqva",
+      "summary": "Abre na plataforma do metrô com texto vermelho 'THE NEXT STATION IS' e cartela 'TOKYO' em vermelho sobre o skyline; segue com POVs (pé na escada rolante, mão na máquina de venda, câmera descartável), carros tunados à noite, metrô lotado e moto em Shibuya; cor natural, cortes rápidos no beat."
+    },
+    {
+      "id": "Dbs4BIoTVDh",
+      "title": "@lennymade_ · ref boa",
+      "origin": "Daniel",
+      "kind": "Linguagem de vlog",
+      "url": "https://www.instagram.com/reel/Dbs4BIoTVDh/",
+      "thumbnail": "ig-Dbs4BIoTVDh",
+      "summary": "Título '東京' gigante em vermelho com o vídeo dentro das letras sobre fundo vermelho ('TOKYO' embaixo), depois estilo 'lost files' com grão, vazamento de luz e cor de filme: POV dirigindo carro, Toyota antigo, rodovia com skyline, metrô, café gelado e cortina 'MATCHA', GT-R em rua estreita com filtro vermelho."
+    }
+  ],
+  "constraints": [
+    {
+      "title": "16h40 · Torre Eiffel",
+      "status": "confirmed",
+      "detail": "Horário confirmado pelo Iagor em 23/10. Meta: segurança às 16h15; vale conferir o ingresso para a fila correta."
+    },
+    {
+      "title": "13h · almoço",
+      "status": "pending",
+      "detail": "Horário do roteiro original. Reserva e mesa no Marly ainda não foram comprovadas."
+    },
+    {
+      "title": "Jantar depois das fotos",
+      "status": "confirmed",
+      "detail": "Iagor confirmou em 23/10 que pode ser depois da captação noturna. Sugestão: após Bir-Hakeim, por volta de 20h45, conforme a saída real da Torre. Restaurante ainda a definir."
+    }
+  ],
+  "decisions": [
+    {
+      "id": "dinner",
+      "title": "Jantar após as fotos: escolher o endereço",
+      "detail": "Horário flexível confirmado pelo Iagor em 23/10. A rota pode terminar em Bir-Hakeim e seguir para jantar, sem compromisso fixo às 19h. Restaurante e disponibilidade ainda não definidos.",
+      "recommendation": "Escolher restaurante na região de Bir-Hakeim / Passy / Grenelle, depois da captação; previsão em torno de 20h45."
+    },
+    {
+      "id": "lunch",
+      "title": "Marly: almoço e terraço confirmados?",
+      "detail": "O café é o ponto de partida do roteiro. Se for outro restaurante, precisamos trocar origem e a cena da mesa.",
+      "recommendation": "Preferir almoço no eixo Louvre para evitar desvio de bairro."
+    },
+    {
+      "id": "hotel",
+      "title": "Hotel e transporte de volta",
+      "detail": "O endereço do hotel não está no site. A rota revisada termina em Bir-Hakeim; não promete conexão ideal até a hospedagem.",
+      "recommendation": "Completar o retorno quando houver o endereço."
+    },
+    {
+      "id": "photo-selection",
+      "title": "Quais fotos entram de verdade?",
+      "detail": "As 109 refs foram triadas. Muitas repetem a mesma composição; não são 109 fotos para executar.",
+      "recommendation": "Priorizar 1–2 composições por spot. Cortar Camoëns, Flore e Opéra da rota base."
+    },
+    {
+      "id": "richelieu-access",
+      "title": "Arco de Richelieu: acesso a conferir",
+      "detail": "Identificação do cenário é forte, mas não confirma abertura do arco em 27/10.",
+      "recommendation": "Manter plano B no pátio, no mesmo bloco, sem criar retorno."
+    }
+  ],
+  "presentation": {
+    "featuredPhotos": [
+      "pa-03",
+      "pa-07",
+      "pa-08",
+      "pa-09",
+      "pa-10",
+      "pa-13"
+    ],
+    "patternVersion": 1
+  }
+}
