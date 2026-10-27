@@ -1,0 +1,61 @@
+import assert from 'node:assert/strict';
+import vm from 'node:vm';
+import {readFileSync} from 'node:fs';
+
+// Executa as rotinas reais de armazenamento, isolando somente o DOM/renderer.
+// Nenhuma marcação do navegador do usuário é lida ou alterada neste teste.
+const root=new URL('../',import.meta.url),read=p=>JSON.parse(readFileSync(new URL(p,root),'utf8'));
+const paris=read('data/paris-27.json'),trip=read('data/viagem.json');
+const noteId=paris.decisions[0].id,storage=new Map();
+storage.set('trip-review-v2',JSON.stringify({choices:{'louvre-main':'maybe'},photos:{'pa-03':{use:true,done:true}},takes:{'P01-1':true},notes:{[noteId]:'Anotação preservada'}}));
+storage.set('ck-done',JSON.stringify({'pa-07':true}));
+let download,downloadName;
+const nodes=new Map();
+const node=()=>({dataset:{},classList:{add(){},remove(){}},append(){},remove(){},click(){downloadName=this.download;}});
+const document={documentElement:node(),body:node(),createElement:node,querySelector:s=>{if(!nodes.has(s))nodes.set(s,node());return nodes.get(s);}};
+let source=readFileSync(new URL('assets/planner.js',root),'utf8');
+const start=source.indexOf('  async function render()'),end=source.indexOf('  function constraints()',start);
+assert(start>0&&end>start);
+source=source.slice(0,start)+'  async function render() {}\n\n'+source.slice(end);
+source=source.replace('return {init};','return {restore,preparePlans,exportReview,importReview,setup:b=>{trip=b;},select:id=>{plan=dayBy(id);},inspect:()=>({state,photos:allPhotos})};');
+source=source.replace('TripPlanner.init();','globalThis.plannerUnderTest=TripPlanner;');
+const context=vm.createContext({document,console,Blob,Map,Set,Date,JSON,Object,Array,URL:{createObjectURL:blob=>{download=blob;return 'blob:local-test';},revokeObjectURL(){}},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},setTimeout:()=>0,clearTimeout(){}});
+vm.runInContext(source,context);
+const planner=context.plannerUnderTest;
+planner.setup(trip);planner.restore();planner.preparePlans(paris);planner.select('osaka-10');
+planner.exportReview();
+const exported=JSON.parse(await download.text());
+assert.equal(downloadName,'progresso-viagem-paris-japao.json');
+assert.equal(exported.schema,'trip-review-v3');
+assert.equal(exported.scope,'trip');
+assert.equal(Object.keys(exported.state.photos).length,240);
+assert.equal(exported.state.photos['pa-03'].done,true);
+assert.equal(exported.state.photos['pa-07'].done,true,'Marcações legadas ck-done entram no backup');
+assert.equal(exported.state.takes['P01-1'],true);
+assert.equal(exported.state.notes[noteId],'Anotação preservada');
+
+const incoming=JSON.parse(JSON.stringify(exported));
+incoming.state.takes['J-kyoto-yasaka']=true;
+incoming.state.photos['119063983897845805']={use:true,done:true};
+incoming.state.videos={J06:true};
+incoming.state.choices['t31-ginza']='cut';
+incoming.state.takes['id-inexistente']=true;
+const file=data=>({size:JSON.stringify(data).length,text:async()=>JSON.stringify(data)});
+await planner.importReview(file(incoming));
+let saved=JSON.parse(storage.get('trip-review-v2'));
+assert.equal(saved.takes['J-kyoto-yasaka'],true,'Importação da viagem aceita take de outro dia');
+assert.equal(saved.photos['119063983897845805'].done,true);
+assert.equal(saved.videos.J06,true);
+assert.equal(saved.choices['t31-ginza'],'cut');
+assert.equal(saved.takes['id-inexistente'],undefined,'IDs desconhecidos não são importados');
+assert.equal(saved.takes['P01-1'],true,'Importar outro dia preserva Paris');
+
+await planner.importReview(file({schema:'trip-review-v2',day:'paris-27',state:{takes:{'P01-1':false},notes:{[noteId]:'Revisão antiga'}}}));
+saved=JSON.parse(storage.get('trip-review-v2'));
+assert.equal(saved.takes['P01-1'],false,'Backup antigo de Paris continua aceito');
+assert.equal(saved.notes[noteId],'Revisão antiga');
+assert.equal(saved.takes['J-kyoto-yasaka'],true,'Backup antigo não apaga dias novos');
+const before=storage.get('trip-review-v2');
+await planner.importReview(file({schema:'outro-formato',state:{takes:{'P01-1':true}}}));
+assert.equal(storage.get('trip-review-v2'),before,'Formato inválido não altera progresso');
+console.log('OK: exportação da viagem, fotos legadas, importação entre dias, compatibilidade v2 e rejeição de formato inválido.');
